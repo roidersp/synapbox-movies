@@ -7,8 +7,9 @@ import MovieList from "../Actions/MoviesList";
 
 const containerStyles = makeStyles(theme => ({
   root: {
-    paddingTop: 30,
-    paddingBottom: 30
+    paddingTop: 45,
+    paddingBottom: 45,
+    maxWidth: 1480
   }
 }));
 

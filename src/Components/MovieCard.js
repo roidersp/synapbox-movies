@@ -1,30 +1,53 @@
 import React from "react";
 
-import { makeStyles } from "@material-ui/core/styles";
-import Card from "@material-ui/core/Card";
-import CardActionArea from "@material-ui/core/CardActionArea";
-import CardActions from "@material-ui/core/CardActions";
-import CardContent from "@material-ui/core/CardContent";
-import CardMedia from "@material-ui/core/CardMedia";
-import Button from "@material-ui/core/Button";
-import Typography from "@material-ui/core/Typography";
-import Grid from "@material-ui/core/Grid";
+import { makeStyles, withStyles } from "@material-ui/core/styles";
+import {
+  Card,
+  CardActions,
+  CardActionArea,
+  CardContent,
+  CardMedia,
+  IconButton,
+  Typography,
+  Grid
+} from "@material-ui/core";
+
+import { AddShoppingCart } from "@material-ui/icons";
 
 const useStyles = makeStyles({
   card: {
-    maxWidth: 345,
-    minHeight: 400
+    width: "100%",
+    height: "100%",
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "flex-end",
+    justifyContent: "space-between"
   },
   media: {
     height: 160
+  },
+  addButton: {
+    fontSize: 18
   }
 });
+
+const CustomIcon = withStyles(theme => ({
+  root: {
+    color: "#fff",
+    backgroundColor: theme.palette.secondary.dark,
+    padding: 8,
+    "&:hover": {
+      backgroundColor: theme.palette.secondary.light,
+      color: "#c3c3c3"
+    }
+  }
+}))(IconButton);
 
 const MovieCard = ({ id, title, description, image, price }) => {
   const classes = useStyles();
 
   return (
-    <Grid item lg={3}>
+    <Grid item lg={3} md={4} sm={6} xs={12}>
       <Card className={classes.card}>
         <CardActionArea>
           <CardMedia className={classes.media} image={image} title={title} />
@@ -38,12 +61,9 @@ const MovieCard = ({ id, title, description, image, price }) => {
           </CardContent>
         </CardActionArea>
         <CardActions>
-          <Button size="small" color="primary">
-            Share
-          </Button>
-          <Button size="small" color="primary">
-            Learn More
-          </Button>
+          <CustomIcon variant="contained" size="medium">
+            <AddShoppingCart className={classes.addButton} />
+          </CustomIcon>
         </CardActions>
       </Card>
     </Grid>
