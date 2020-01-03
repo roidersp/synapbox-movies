@@ -1,4 +1,5 @@
 import React from "react";
+import { useMutation, useQuery } from "@apollo/react-hooks";
 
 import { makeStyles, withStyles } from "@material-ui/core/styles";
 import {
@@ -11,6 +12,7 @@ import {
   Fab
 } from "@material-ui/core";
 
+import { ADD_TO_CART, IS_IN_CART } from "../Actions/queries";
 import { AddShoppingCart, Visibility } from "@material-ui/icons";
 
 const useStyles = makeStyles({
@@ -55,8 +57,34 @@ const CustomIcon = withStyles(theme => ({
   }
 }))(Fab);
 
-const MovieCard = ({ id, title, image, price, action }) => {
+const MovieCard = ({ id, title, image, price }) => {
   const classes = useStyles();
+
+  // const {data, loading: queryLoading , error: queryError, ...lets} = useQuery(
+  //   IS_IN_CART,
+  //   { variables: { id: id } }
+  // )
+
+  const [mutate, { loading, error, client, called, ...rest }] = useMutation(
+    ADD_TO_CART,
+    {
+      variables: { id: id }
+      // refetchQueries: [
+      //   {
+      //     query: IS_IN_CART,
+      //     variables: { id: id },
+      //   }
+      // ]
+    }
+  );
+
+  const setMovie = () => {
+    client.writeData({ data: { movieId: id } });
+  };
+
+  // if(called) {
+
+  //}
 
   return (
     <Grid item lg={3} md={4} sm={6} xs={12}>
@@ -73,12 +101,18 @@ const MovieCard = ({ id, title, image, price, action }) => {
           </CardContent>
         </div>
         <CardActions className={classes.cardActions}>
-          <Fab variant="extended" size="medium" onClick={() => action(id)}>
+          <Fab variant="extended" size="medium" onClick={setMovie}>
             <Visibility className={classes.seeButton} />
             Ver detalle
           </Fab>
           <CustomIcon variant="extended" size="medium">
-            <AddShoppingCart className={classes.addButton} />
+            {loading ? (
+              <p>Loading...</p>
+            ) : error ? (
+              <p>An error occurred</p>
+            ) : (
+              <AddShoppingCart className={classes.addButton} onClick={mutate} />
+            )}
           </CustomIcon>
         </CardActions>
       </Card>

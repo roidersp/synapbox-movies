@@ -1,7 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import gql from "graphql-tag";
 import { ApolloClient } from "apollo-client";
 import { ApolloProvider } from "@apollo/react-hooks";
 import { InMemoryCache } from "apollo-cache-inmemory";
@@ -14,6 +13,7 @@ import * as serviceWorker from "./serviceWorker";
 
 import theme from "./theme";
 import Home from "./Views/Home";
+import { GET_CART_ITEMS } from "./Actions/queries";
 // import resolvers from './Resolvers';
 
 const apiURL = "https://us1.prisma.sh/john-a-agudelo-e911b8/johnaagudelodb/dev";
@@ -25,7 +25,46 @@ const link = new HttpLink({
 
 const client = new ApolloClient({
   cache,
-  link
+  link,
+  resolvers: {
+    itemsConnection: {
+      isInCart: (Movie, _, { cache }) => {
+        console.log("isInCart", Movie);
+        const { cartItems } = cache.readQuery({ query: GET_CART_ITEMS });
+        return cartItems.includes(id);
+      }
+    },
+    Mutation: {
+      addToCart: (_, { id }, { cache }) => {
+        const { cartItems } = cache.readQuery({ query: GET_CART_ITEMS });
+
+        const data = {
+          cartItems: !cartItems.includes(id) ? [...cartItems, id] : cartItems
+        };
+
+        cache.writeQuery({ query: GET_CART_ITEMS, data });
+        return data.cartItems;
+      }
+    }
+  },
+  typeDefs: `
+    type Query {
+      cartItems: [ID!]!
+    }
+    type Mutation {
+      addToCart(id: ID!)
+    }
+    type itemsConnection{
+      isInCart: Boolean!
+    }
+  `
+});
+
+cache.writeData({
+  data: {
+    cartItems: [],
+    movieId: null
+  }
 });
 
 ReactDOM.render(

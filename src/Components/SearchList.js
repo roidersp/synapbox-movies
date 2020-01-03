@@ -3,6 +3,8 @@ import React from "react";
 import gql from "graphql-tag";
 import { Query } from "react-apollo";
 
+import { GET_SEARCH_MOVIES } from "../Actions/queries";
+
 import {
   List,
   ListItem,
@@ -12,34 +14,15 @@ import {
   Avatar
 } from "@material-ui/core";
 
-const GET_SEARCH_MOVIES = gql`
-  query search($searchValue: String!) {
-    movies: itemsConnection(
-      where: { title_contains: $searchValue }
-      first: 5
-      after: null
-    ) {
-      edges {
-        node {
-          id
-          title
-          description
-          image
-          price
-        }
-      }
-      pageInfo {
-        hasNextPage
-        endCursor
-      }
-    }
-  }
-`;
-
-const SearchItem = ({ id, title, image, index, action }) => (
+const SearchItem = ({ id, title, image, index, client }) => (
   <>
     {index !== 0 ? <Divider /> : null}
-    <ListItem alignItems="center" key={title} button onClick={() => action(id)}>
+    <ListItem
+      alignItems="center"
+      key={title}
+      button
+      onClick={() => client.writeData({ data: { movieId: id } })}
+    >
       <ListItemAvatar>
         <Avatar alt={title} src={image} />
       </ListItemAvatar>
@@ -48,9 +31,9 @@ const SearchItem = ({ id, title, image, index, action }) => (
   </>
 );
 
-const SearchList = ({ searchValue, action }) => (
+const SearchList = ({ searchValue }) => (
   <Query query={GET_SEARCH_MOVIES} variables={{ searchValue }}>
-    {({ loading, error, data }) => {
+    {({ loading, error, data, client }) => {
       if (loading) return null;
       if (error) return `Error! ${error}`;
 
@@ -61,7 +44,7 @@ const SearchList = ({ searchValue, action }) => (
       return (
         <List>
           {list.map(({ node }, index) => (
-            <SearchItem {...node} index={index} key={index} action={action} />
+            <SearchItem {...node} index={index} key={index} client={client} />
           ))}
         </List>
       );

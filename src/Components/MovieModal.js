@@ -1,9 +1,12 @@
 import React, { useState, useEffect } from "react";
 
+import { useQuery } from "@apollo/react-hooks";
+
 import { makeStyles } from "@material-ui/core/styles";
 import { Modal, Card } from "@material-ui/core";
 
 import ModalCard from "./ModalCard";
+import { GET_MOVIE_ID } from "../Actions/queries";
 
 const useStyles = makeStyles(theme => ({
   modal: {
@@ -26,21 +29,30 @@ const useStyles = makeStyles(theme => ({
   }
 }));
 
-const MoviesModal = ({ movieId }) => {
+const MoviesModal = () => {
   const classes = useStyles();
   const [open, setOpen] = useState(false);
+  const { loading, error, data, client } = useQuery(GET_MOVIE_ID);
 
   const handleOpen = () => {
     setOpen(true);
   };
 
   const handleClose = () => {
+    client.writeData({ data: { movieId: null } });
     setOpen(false);
   };
 
   useEffect(() => {
-    movieId ? handleOpen() : handleClose();
-  }, [movieId]);
+    if (data) {
+      data.movieId ? handleOpen() : handleClose();
+    }
+  }, [data]);
+
+  if (loading) return null;
+  if (error) return null;
+
+  const { movieId } = data;
 
   return (
     <Modal
