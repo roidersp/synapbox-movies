@@ -1,9 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import { Container } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 
 import Header from "../Components/Header";
 import MovieList from "../Actions/MoviesList";
+import MovieModal from "../Components/MovieModal";
 
 const containerStyles = makeStyles(theme => ({
   root: {
@@ -14,7 +15,11 @@ const containerStyles = makeStyles(theme => ({
 }));
 
 const Home = () => {
+  const [movieId, selectMovie] = useState(null);
   const containerClasses = containerStyles();
+
+  const setMovie = id => selectMovie(id);
+
   return (
     <>
       <Header />
@@ -24,8 +29,9 @@ const Home = () => {
           root: containerClasses.root
         }}
       >
-        <MovieList />
+        <MovieList action={setMovie} />
       </Container>
+      <MovieModal movieId={movieId} />
     </>
   );
 };

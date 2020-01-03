@@ -19,9 +19,6 @@ const GET_SEARCH_MOVIES = gql`
       first: 5
       after: null
     ) {
-      aggregate {
-        count
-      }
       edges {
         node {
           id
@@ -39,10 +36,10 @@ const GET_SEARCH_MOVIES = gql`
   }
 `;
 
-const SearchItem = ({ title, image, index }) => (
+const SearchItem = ({ id, title, image, index, action }) => (
   <>
     {index !== 0 ? <Divider /> : null}
-    <ListItem alignItems="center" key={title} button>
+    <ListItem alignItems="center" key={title} button onClick={() => action(id)}>
       <ListItemAvatar>
         <Avatar alt={title} src={image} />
       </ListItemAvatar>
@@ -51,7 +48,7 @@ const SearchItem = ({ title, image, index }) => (
   </>
 );
 
-const SearchList = ({ searchValue }) => (
+const SearchList = ({ searchValue, action }) => (
   <Query query={GET_SEARCH_MOVIES} variables={{ searchValue }}>
     {({ loading, error, data }) => {
       if (loading) return null;
@@ -64,7 +61,7 @@ const SearchList = ({ searchValue }) => (
       return (
         <List>
           {list.map(({ node }, index) => (
-            <SearchItem {...node} index={index} key={index} />
+            <SearchItem {...node} index={index} key={index} action={action} />
           ))}
         </List>
       );

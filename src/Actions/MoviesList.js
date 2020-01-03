@@ -6,10 +6,11 @@ import { Query } from "react-apollo";
 import Grid from "@material-ui/core/Grid";
 
 import MovieCard from "../Components/MovieCard";
+import SearchBox from "../Components/SearchBox";
 
 const GET_MOVIES = gql`
   {
-    movies: itemsConnection(where: null, first: 12, after: null) {
+    movies: itemsConnection(where: null, first: 24, after: null) {
       aggregate {
         count
       }
@@ -32,7 +33,7 @@ const GET_MOVIES = gql`
   }
 `;
 
-const MoviesList = () => (
+const MoviesList = ({ action }) => (
   <Query query={GET_MOVIES}>
     {({ loading, error, data }) => {
       if (loading) return "Loading...";
@@ -42,8 +43,11 @@ const MoviesList = () => (
 
       return (
         <Grid container spacing={2}>
-          {movies.map(({ node: movie }) => (
-            <MovieCard {...movie} />
+          <Grid item xs={12}>
+            <SearchBox action={action} />
+          </Grid>
+          {movies.map(({ node: movie }, index) => (
+            <MovieCard {...movie} key={index} action={action} />
           ))}
         </Grid>
       );

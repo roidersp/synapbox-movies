@@ -34,7 +34,7 @@ const styles = makeStyles(theme => ({
   }
 }));
 
-const SearchBox = () => {
+const SearchBox = ({ action }) => {
   const [searchValue, setValue] = useState("");
 
   const handleChange = event => {
@@ -68,7 +68,7 @@ const SearchBox = () => {
       {searchValue && (
         <Container className={classes.mainContainer} fixed>
           <Paper className={classes.listContainer}>
-            <SearchList searchValue={searchValue} />
+            <SearchList searchValue={searchValue} action={action} />
           </Paper>
         </Container>
       )}
