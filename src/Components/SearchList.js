@@ -1,6 +1,4 @@
 import React from "react";
-
-import gql from "graphql-tag";
 import { Query } from "react-apollo";
 
 import { GET_SEARCH_MOVIES } from "../Actions/queries";

@@ -1,7 +1,7 @@
 import React from "react";
 
 import gql from "graphql-tag";
-import { useQuery } from "@apollo/react-hooks";
+import { useQuery, useMutation } from "@apollo/react-hooks";
 
 import { makeStyles, withStyles } from "@material-ui/core/styles";
 import { AddShoppingCart, AttachMoney } from "@material-ui/icons";
@@ -13,17 +13,7 @@ import {
   Fab
 } from "@material-ui/core";
 
-const GET_MOVIE = gql`
-  query($id: ID!) {
-    movie: item(where: { id: $id }) {
-      id
-      title
-      description
-      largeImage
-      price
-    }
-  }
-`;
+import { GET_MOVIE, ADD_TO_CART } from "../Actions/queries.js";
 
 const useStyles = makeStyles({
   card: {
@@ -80,7 +70,18 @@ const CustomIcon = withStyles(theme => ({
 const ModalCard = ({ id }) => {
   const classes = useStyles();
 
-  const { loading, error, data } = useQuery(GET_MOVIE, { variables: { id } });
+  const { loading, error, data, client } = useQuery(GET_MOVIE, {
+    variables: { id }
+  });
+
+  const [
+    mutate,
+    { loading: mutateLoading, error: mutateError, called, ...rest }
+  ] = useMutation(ADD_TO_CART, { variables: { id: id } });
+
+  if (mutateLoading) console.log("loading mutation");
+
+  if (mutateError) console.log("error", mutateError);
 
   if (loading) return <CardContent>Loading...</CardContent>;
   if (error) return <CardContent>Error! ${error.message}</CardContent>;
@@ -101,7 +102,7 @@ const ModalCard = ({ id }) => {
           <Typography className={classes.price}>
             <AttachMoney /> {price}
           </Typography>
-          <CustomIcon variant="extended" size="medium">
+          <CustomIcon variant="extended" size="medium" onClick={mutate}>
             <AddShoppingCart className={classes.addButton} />
             Añadir al carrito
           </CustomIcon>

@@ -82,9 +82,13 @@ const MovieCard = ({ id, title, image, price }) => {
     client.writeData({ data: { movieId: id } });
   };
 
-  // if(called) {
+  if (loading) console.log("loading mutation");
 
-  //}
+  if (error) console.log("error", error);
+
+  if (called) {
+    console.log("called");
+  }
 
   return (
     <Grid item lg={3} md={4} sm={6} xs={12}>
@@ -105,13 +109,13 @@ const MovieCard = ({ id, title, image, price }) => {
             <Visibility className={classes.seeButton} />
             Ver detalle
           </Fab>
-          <CustomIcon variant="extended" size="medium">
+          <CustomIcon variant="extended" size="medium" onClick={mutate}>
             {loading ? (
               <p>Loading...</p>
             ) : error ? (
-              <p>An error occurred</p>
+              <p>Ocurrio un error</p>
             ) : (
-              <AddShoppingCart className={classes.addButton} onClick={mutate} />
+              <AddShoppingCart className={classes.addButton} />
             )}
           </CustomIcon>
         </CardActions>
