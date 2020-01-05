@@ -29,7 +29,6 @@ const client = new ApolloClient({
   resolvers: {
     itemsConnection: {
       isInCart: (Movie, _, { cache }) => {
-        console.log("isInCart", Movie);
         const { cartItems } = cache.readQuery({ query: GET_CART_ITEMS });
         return cartItems.includes(id);
       }
@@ -63,7 +62,8 @@ const client = new ApolloClient({
 cache.writeData({
   data: {
     cartItems: [],
-    movieId: null
+    movieId: null,
+    cartIsOpen: false
   }
 });
 

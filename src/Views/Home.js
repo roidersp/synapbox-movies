@@ -6,6 +6,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import Header from "../Components/Header";
 import MovieList from "../Components/MoviesList";
 import MovieModal from "../Components/MovieModal";
+import CartContainer from "../Components/CartContainer";
 
 const containerStyles = makeStyles(theme => ({
   root: {
@@ -30,6 +31,7 @@ const Home = () => {
         <MovieList />
       </Container>
       <MovieModal />
+      <CartContainer />
     </>
   );
 };

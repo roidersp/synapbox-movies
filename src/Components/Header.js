@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import { useQuery } from "@apollo/react-hooks";
+
 import { makeStyles } from "@material-ui/core/styles";
 import {
   AppBar,
@@ -8,6 +10,8 @@ import {
   Badge
 } from "@material-ui/core";
 import ShoppingCartIcon from "@material-ui/icons/ShoppingCart";
+
+import { GET_CART_ITEMS, CART_IS_OPEN } from "../Actions/queries";
 
 const useStyles = makeStyles(theme => ({
   grow: {
@@ -23,6 +27,18 @@ const useStyles = makeStyles(theme => ({
 export default function PrimarySearchAppBar() {
   const classes = useStyles();
 
+  const { data, loading, error, client, ...lets } = useQuery(GET_CART_ITEMS);
+  const [cartItemLen, setCartItemLen] = useState(0);
+
+  useEffect(() => {
+    const { cartItems } = data;
+    setCartItemLen(cartItems.length);
+  }, [data]);
+
+  const openCart = () => {
+    client.writeData({ data: { cartIsOpen: true } });
+  };
+
   return (
     <div className={classes.grow}>
       <AppBar position="static">
@@ -32,8 +48,12 @@ export default function PrimarySearchAppBar() {
           </Typography>
           <div className={classes.grow} />
           <div>
-            <IconButton aria-label="show 4 new mails" color="inherit">
-              <Badge badgeContent={0} color="secondary">
+            <IconButton
+              aria-label={`show ${cartItemLen} new mails`}
+              color="inherit"
+              onClick={openCart}
+            >
+              <Badge badgeContent={cartItemLen} color="secondary">
                 <ShoppingCartIcon />
               </Badge>
             </IconButton>

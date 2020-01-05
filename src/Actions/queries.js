@@ -18,9 +18,27 @@ export const GET_MOVIE_ID = gql`
   }
 `;
 
+export const GET_MOVIE = gql`
+  query($id: ID!) {
+    movie: item(where: { id: $id }) {
+      id
+      title
+      description
+      largeImage
+      price
+    }
+  }
+`;
+
 export const IS_IN_CART = gql`
   query isInCart($id: ID!) {
     isInCart(id: $id) @client
+  }
+`;
+
+export const CART_IS_OPEN = gql`
+  {
+    cartIsOpen @client
   }
 `;
 
@@ -45,6 +63,17 @@ export const GET_MOVIES = gql`
         startCursor
         endCursor
       }
+    }
+  }
+`;
+
+export const GET_MOVIES_BY_ID = gql`
+  query search($ids: [ID!]) {
+    movies: items(where: { id_in: $ids }) {
+      id
+      title
+      image
+      price
     }
   }
 `;
