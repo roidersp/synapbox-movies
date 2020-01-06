@@ -65,30 +65,16 @@ const MovieCard = ({ id, title, image, price }) => {
   //   { variables: { id: id } }
   // )
 
-  const [mutate, { loading, error, client, called, ...rest }] = useMutation(
-    ADD_TO_CART,
-    {
-      variables: { id: id }
-      // refetchQueries: [
-      //   {
-      //     query: IS_IN_CART,
-      //     variables: { id: id },
-      //   }
-      // ]
-    }
-  );
+  const [
+    mutate,
+    { loading, error, client, called, ...rest }
+  ] = useMutation(ADD_TO_CART, { variables: { id } });
 
   const setMovie = () => {
     client.writeData({ data: { movieId: id } });
   };
 
-  if (loading) console.log("loading mutation");
-
   if (error) console.log("error", error);
-
-  if (called) {
-    console.log("called");
-  }
 
   return (
     <Grid item lg={3} md={4} sm={6} xs={12}>
@@ -111,7 +97,7 @@ const MovieCard = ({ id, title, image, price }) => {
           </Fab>
           <CustomIcon variant="extended" size="medium" onClick={mutate}>
             {loading ? (
-              <p>Loading...</p>
+              <p>Cargando...</p>
             ) : error ? (
               <p>Ocurrio un error</p>
             ) : (

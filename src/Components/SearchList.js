@@ -32,7 +32,7 @@ const SearchItem = ({ id, title, image, index, client }) => (
 const SearchList = ({ searchValue }) => (
   <Query query={GET_SEARCH_MOVIES} variables={{ searchValue }}>
     {({ loading, error, data, client }) => {
-      if (loading) return null;
+      if (loading) return <div>Cargando...</div>;
       if (error) return `Error! ${error}`;
 
       const { edges: list } = data.movies;

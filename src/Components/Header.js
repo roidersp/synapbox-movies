@@ -11,7 +11,7 @@ import {
 } from "@material-ui/core";
 import ShoppingCartIcon from "@material-ui/icons/ShoppingCart";
 
-import { GET_CART_ITEMS, CART_IS_OPEN } from "../Actions/queries";
+import { GET_CART_ITEMS } from "../Actions/queries";
 
 const useStyles = makeStyles(theme => ({
   grow: {
@@ -24,10 +24,10 @@ const useStyles = makeStyles(theme => ({
   }
 }));
 
-export default function PrimarySearchAppBar() {
+const Header = () => {
   const classes = useStyles();
 
-  const { data, loading, error, client, ...lets } = useQuery(GET_CART_ITEMS);
+  const { data, loading, error, client } = useQuery(GET_CART_ITEMS);
   const [cartItemLen, setCartItemLen] = useState(0);
 
   useEffect(() => {
@@ -38,6 +38,8 @@ export default function PrimarySearchAppBar() {
   const openCart = () => {
     client.writeData({ data: { cartIsOpen: true } });
   };
+
+  console.log(cartItemLen);
 
   return (
     <div className={classes.grow}>
@@ -62,4 +64,6 @@ export default function PrimarySearchAppBar() {
       </AppBar>
     </div>
   );
-}
+};
+
+export default Header;

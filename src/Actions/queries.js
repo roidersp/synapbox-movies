@@ -72,7 +72,7 @@ export const HANDLE_CONFIRM_DELETE = gql`
 `;
 
 export const GET_MOVIES = gql`
-  {
+  query getMovies {
     movies: itemsConnection(where: null, first: 16, after: null) {
       aggregate {
         count
