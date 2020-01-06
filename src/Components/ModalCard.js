@@ -1,6 +1,4 @@
 import React from "react";
-
-import gql from "graphql-tag";
 import { useQuery, useMutation } from "@apollo/react-hooks";
 
 import { makeStyles, withStyles } from "@material-ui/core/styles";
@@ -78,10 +76,6 @@ const ModalCard = ({ id }) => {
     mutate,
     { loading: mutateLoading, error: mutateError, called, ...rest }
   ] = useMutation(ADD_TO_CART, { variables: { id: id } });
-
-  if (mutateLoading) console.log("loading mutation");
-
-  if (mutateError) console.log("error", mutateError);
 
   if (loading) return <CardContent>Loading...</CardContent>;
   if (error) return <CardContent>Error! ${error.message}</CardContent>;

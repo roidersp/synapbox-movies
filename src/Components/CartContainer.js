@@ -40,7 +40,7 @@ const CartContainer = () => {
   if (loading) return null;
   if (!data) return null;
 
-  const { cartIsOpen } = data;
+  const { cartIsOpen, cartItems } = data;
 
   return (
     <Drawer anchor="right" open={cartIsOpen} onClose={closeDrawer}>
@@ -49,7 +49,7 @@ const CartContainer = () => {
           <ShoppingCart /> Tu carrito de compras
         </div>
         <div className={classes.content}>
-          <CartList />
+          <CartList cartItems={cartItems} />
         </div>
         <div className={classes.footer}></div>
       </div>

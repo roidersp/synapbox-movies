@@ -27,12 +27,6 @@ const client = new ApolloClient({
   cache,
   link,
   resolvers: {
-    itemsConnection: {
-      isInCart: (Movie, _, { cache }) => {
-        const { cartItems } = cache.readQuery({ query: GET_CART_ITEMS });
-        return cartItems.includes(id);
-      }
-    },
     Mutation: {
       addToCart: (_, { id }, { cache }) => {
         const { cartItems } = cache.readQuery({ query: GET_CART_ITEMS });
@@ -43,18 +37,25 @@ const client = new ApolloClient({
 
         cache.writeQuery({ query: GET_CART_ITEMS, data });
         return data.cartItems;
+      },
+      deleteFromCart: (_, { id }, { cache }) => {
+        const { cartItems } = cache.readQuery({ query: GET_CART_ITEMS });
+
+        const data = {
+          cartItems: cartItems.includes(id)
+            ? cartItems.filter(i => i !== id)
+            : cartItems
+        };
+
+        cache.writeQuery({ query: GET_CART_ITEMS, data });
+        return cartItems.includes(id);
       }
     }
   },
   typeDefs: `
-    type Query {
-      cartItems: [ID!]!
-    }
     type Mutation {
       addToCart(id: ID!)
-    }
-    type itemsConnection{
-      isInCart: Boolean!
+      deleteFromCart(id: ID!)
     }
   `
 });
@@ -63,7 +64,12 @@ cache.writeData({
   data: {
     cartItems: [],
     movieId: null,
-    cartIsOpen: false
+    cartIsOpen: false,
+    dialogDelete: {
+      __typename: "DialogDelete",
+      open: false,
+      movie: null
+    }
   }
 });
 

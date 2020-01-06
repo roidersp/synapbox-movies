@@ -7,6 +7,7 @@ import Header from "../Components/Header";
 import MovieList from "../Components/MoviesList";
 import MovieModal from "../Components/MovieModal";
 import CartContainer from "../Components/CartContainer";
+import DeleteDialog from "../Components/DeleteDialog";
 
 const containerStyles = makeStyles(theme => ({
   root: {
@@ -32,6 +33,7 @@ const Home = () => {
       </Container>
       <MovieModal />
       <CartContainer />
+      <DeleteDialog />
     </>
   );
 };

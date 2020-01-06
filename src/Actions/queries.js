@@ -6,6 +6,12 @@ export const ADD_TO_CART = gql`
   }
 `;
 
+export const DELETE_FROM_CART = gql`
+  mutation deleteFromCart($id: ID!) {
+    deleteFromCart(id: $id) @client
+  }
+`;
+
 export const GET_CART_ITEMS = gql`
   query GetCartItems {
     cartItems @client
@@ -39,6 +45,29 @@ export const IS_IN_CART = gql`
 export const CART_IS_OPEN = gql`
   {
     cartIsOpen @client
+    cartItems @client
+  }
+`;
+
+export const CONFIRM_DELETE = gql`
+  {
+    dialogDelete @client {
+      open
+      movie {
+        id
+        title
+        image
+      }
+    }
+  }
+`;
+
+export const HANDLE_CONFIRM_DELETE = gql`
+  {
+    dialogDelete @client {
+      open
+      Movie
+    }
   }
 `;
 
