@@ -12,13 +12,13 @@ import { GET_MOVIES } from "../Actions/queries";
 const MoviesList = () => (
   <Query query={GET_MOVIES}>
     {({ loading, error, data }) => {
-      if (loading) return "Loading...";
+      if (loading) return "Cargando...";
       if (error) return `Error! ${error.message}`;
 
       const { edges: movies } = data.movies;
 
       return (
-        <Grid container spacing={2}>
+        <Grid container spacing={2} data-testid="GridContainer">
           <Grid item xs={12}>
             <SearchBox />
           </Grid>

@@ -1,0 +1,3129 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Movie List expected title on items 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div />
+  </body>,
+  "container": <div />,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Movie List snapshot 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2"
+        data-testid="GridContainer"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
+        >
+          <div
+            class="MuiContainer-root makeStyles-mainContainer-104 MuiContainer-maxWidthLg"
+          >
+            <div
+              class="MuiFormControl-root MuiFormControl-fullWidth"
+            >
+              <label
+                class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined"
+                data-shrink="false"
+                for="outlined-adornment-amount"
+              >
+                Buscar
+              </label>
+              <div
+                class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl MuiInputBase-adornedEnd MuiOutlinedInput-adornedEnd"
+              >
+                <input
+                  aria-invalid="false"
+                  class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedEnd MuiOutlinedInput-inputAdornedEnd"
+                  id="outlined-adornment-amount"
+                  type="text"
+                  value=""
+                />
+                <div
+                  class="MuiInputAdornment-root MuiInputAdornment-positionStart"
+                >
+                  <button
+                    class="MuiButtonBase-root MuiIconButton-root"
+                    tabindex="0"
+                    type="button"
+                  >
+                    <span
+                      class="MuiIconButton-label"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root"
+                        focusable="false"
+                        role="presentation"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                        />
+                      </svg>
+                    </span>
+                    <span
+                      class="MuiTouchRipple-root"
+                    />
+                  </button>
+                </div>
+                <fieldset
+                  aria-hidden="true"
+                  class="PrivateNotchedOutline-root-202 MuiOutlinedInput-notchedOutline"
+                  style="padding-left: 30px;"
+                >
+                  <legend
+                    class="PrivateNotchedOutline-legend-203"
+                    style="width: 0.01px;"
+                  >
+                    <span>
+                      ​
+                    </span>
+                  </legend>
+                </fieldset>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 MuiGrid-grid-lg-3"
+        >
+          <div
+            class="MuiPaper-root MuiCard-root makeStyles-card-204 MuiPaper-elevation1 MuiPaper-rounded"
+          >
+            <div
+              style="width: 100%;"
+            >
+              <div
+                class="MuiCardMedia-root makeStyles-media-205"
+                style="background-image: url(http://static.tvmaze.com/uploads/images/medium_landscape/1/4388.jpg);"
+                title="Pilot"
+              />
+              <div
+                class="MuiCardContent-root"
+              >
+                <h2
+                  class="MuiTypography-root makeStyles-title-208 MuiTypography-h5"
+                >
+                  Pilot
+                </h2>
+                <p
+                  class="MuiTypography-root MuiTypography-body2 MuiTypography-colorTextSecondary"
+                >
+                  $
+                  500
+                </p>
+              </div>
+            </div>
+            <div
+              class="MuiCardActions-root makeStyles-cardActions-209 MuiCardActions-spacing"
+            >
+              <button
+                class="MuiButtonBase-root MuiFab-root MuiFab-extended MuiFab-sizeMedium"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiFab-label"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root makeStyles-seeButton-207"
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"
+                    />
+                  </svg>
+                  Ver detalle
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                class="MuiButtonBase-root MuiFab-root WithStyles(ForwardRef(Fab))-root-285 MuiFab-extended MuiFab-sizeMedium"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiFab-label"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root makeStyles-addButton-206"
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M0 0h24v24H0zm18.31 6l-2.76 5z"
+                      fill="none"
+                    />
+                    <path
+                      d="M11 9h2V6h3V4h-3V1h-2v3H8v2h3v3zm-4 9c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zm10 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2zm-9.83-3.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.86-7.01L19.42 4h-.01l-1.1 2-2.76 5H8.53l-.13-.27L6.16 6l-.95-2-.94-2H1v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.13 0-.25-.11-.25-.25z"
+                    />
+                  </svg>
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 MuiGrid-grid-lg-3"
+        >
+          <div
+            class="MuiPaper-root MuiCard-root makeStyles-card-204 MuiPaper-elevation1 MuiPaper-rounded"
+          >
+            <div
+              style="width: 100%;"
+            >
+              <div
+                class="MuiCardMedia-root makeStyles-media-205"
+                style="background-image: url(http://static.tvmaze.com/uploads/images/medium_landscape/1/4389.jpg);"
+                title="The Fire"
+              />
+              <div
+                class="MuiCardContent-root"
+              >
+                <h2
+                  class="MuiTypography-root makeStyles-title-208 MuiTypography-h5"
+                >
+                  The Fire
+                </h2>
+                <p
+                  class="MuiTypography-root MuiTypography-body2 MuiTypography-colorTextSecondary"
+                >
+                  $
+                  450
+                </p>
+              </div>
+            </div>
+            <div
+              class="MuiCardActions-root makeStyles-cardActions-209 MuiCardActions-spacing"
+            >
+              <button
+                class="MuiButtonBase-root MuiFab-root MuiFab-extended MuiFab-sizeMedium"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiFab-label"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root makeStyles-seeButton-207"
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"
+                    />
+                  </svg>
+                  Ver detalle
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                class="MuiButtonBase-root MuiFab-root WithStyles(ForwardRef(Fab))-root-285 MuiFab-extended MuiFab-sizeMedium"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiFab-label"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root makeStyles-addButton-206"
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M0 0h24v24H0zm18.31 6l-2.76 5z"
+                      fill="none"
+                    />
+                    <path
+                      d="M11 9h2V6h3V4h-3V1h-2v3H8v2h3v3zm-4 9c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zm10 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2zm-9.83-3.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.86-7.01L19.42 4h-.01l-1.1 2-2.76 5H8.53l-.13-.27L6.16 6l-.95-2-.94-2H1v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.13 0-.25-.11-.25-.25z"
+                    />
+                  </svg>
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 MuiGrid-grid-lg-3"
+        >
+          <div
+            class="MuiPaper-root MuiCard-root makeStyles-card-204 MuiPaper-elevation1 MuiPaper-rounded"
+          >
+            <div
+              style="width: 100%;"
+            >
+              <div
+                class="MuiCardMedia-root makeStyles-media-205"
+                style="background-image: url(http://static.tvmaze.com/uploads/images/medium_landscape/1/4390.jpg);"
+                title="Manhunt"
+              />
+              <div
+                class="MuiCardContent-root"
+              >
+                <h2
+                  class="MuiTypography-root makeStyles-title-208 MuiTypography-h5"
+                >
+                  Manhunt
+                </h2>
+                <p
+                  class="MuiTypography-root MuiTypography-body2 MuiTypography-colorTextSecondary"
+                >
+                  $
+                  480
+                </p>
+              </div>
+            </div>
+            <div
+              class="MuiCardActions-root makeStyles-cardActions-209 MuiCardActions-spacing"
+            >
+              <button
+                class="MuiButtonBase-root MuiFab-root MuiFab-extended MuiFab-sizeMedium"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiFab-label"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root makeStyles-seeButton-207"
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"
+                    />
+                  </svg>
+                  Ver detalle
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                class="MuiButtonBase-root MuiFab-root WithStyles(ForwardRef(Fab))-root-285 MuiFab-extended MuiFab-sizeMedium"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiFab-label"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root makeStyles-addButton-206"
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M0 0h24v24H0zm18.31 6l-2.76 5z"
+                      fill="none"
+                    />
+                    <path
+                      d="M11 9h2V6h3V4h-3V1h-2v3H8v2h3v3zm-4 9c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zm10 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2zm-9.83-3.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.86-7.01L19.42 4h-.01l-1.1 2-2.76 5H8.53l-.13-.27L6.16 6l-.95-2-.94-2H1v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.13 0-.25-.11-.25-.25z"
+                    />
+                  </svg>
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 MuiGrid-grid-lg-3"
+        >
+          <div
+            class="MuiPaper-root MuiCard-root makeStyles-card-204 MuiPaper-elevation1 MuiPaper-rounded"
+          >
+            <div
+              style="width: 100%;"
+            >
+              <div
+                class="MuiCardMedia-root makeStyles-media-205"
+                style="background-image: url(http://static.tvmaze.com/uploads/images/medium_landscape/1/4391.jpg);"
+                title="Outbreak"
+              />
+              <div
+                class="MuiCardContent-root"
+              >
+                <h2
+                  class="MuiTypography-root makeStyles-title-208 MuiTypography-h5"
+                >
+                  Outbreak
+                </h2>
+                <p
+                  class="MuiTypography-root MuiTypography-body2 MuiTypography-colorTextSecondary"
+                >
+                  $
+                  550
+                </p>
+              </div>
+            </div>
+            <div
+              class="MuiCardActions-root makeStyles-cardActions-209 MuiCardActions-spacing"
+            >
+              <button
+                class="MuiButtonBase-root MuiFab-root MuiFab-extended MuiFab-sizeMedium"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiFab-label"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root makeStyles-seeButton-207"
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"
+                    />
+                  </svg>
+                  Ver detalle
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                class="MuiButtonBase-root MuiFab-root WithStyles(ForwardRef(Fab))-root-285 MuiFab-extended MuiFab-sizeMedium"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiFab-label"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root makeStyles-addButton-206"
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M0 0h24v24H0zm18.31 6l-2.76 5z"
+                      fill="none"
+                    />
+                    <path
+                      d="M11 9h2V6h3V4h-3V1h-2v3H8v2h3v3zm-4 9c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zm10 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2zm-9.83-3.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.86-7.01L19.42 4h-.01l-1.1 2-2.76 5H8.53l-.13-.27L6.16 6l-.95-2-.94-2H1v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.13 0-.25-.11-.25-.25z"
+                    />
+                  </svg>
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 MuiGrid-grid-lg-3"
+        >
+          <div
+            class="MuiPaper-root MuiCard-root makeStyles-card-204 MuiPaper-elevation1 MuiPaper-rounded"
+          >
+            <div
+              style="width: 100%;"
+            >
+              <div
+                class="MuiCardMedia-root makeStyles-media-205"
+                style="background-image: url(http://static.tvmaze.com/uploads/images/medium_landscape/1/4392.jpg);"
+                title="Blue on Blue"
+              />
+              <div
+                class="MuiCardContent-root"
+              >
+                <h2
+                  class="MuiTypography-root makeStyles-title-208 MuiTypography-h5"
+                >
+                  Blue on Blue
+                </h2>
+                <p
+                  class="MuiTypography-root MuiTypography-body2 MuiTypography-colorTextSecondary"
+                >
+                  $
+                  600
+                </p>
+              </div>
+            </div>
+            <div
+              class="MuiCardActions-root makeStyles-cardActions-209 MuiCardActions-spacing"
+            >
+              <button
+                class="MuiButtonBase-root MuiFab-root MuiFab-extended MuiFab-sizeMedium"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiFab-label"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root makeStyles-seeButton-207"
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"
+                    />
+                  </svg>
+                  Ver detalle
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                class="MuiButtonBase-root MuiFab-root WithStyles(ForwardRef(Fab))-root-285 MuiFab-extended MuiFab-sizeMedium"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiFab-label"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root makeStyles-addButton-206"
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M0 0h24v24H0zm18.31 6l-2.76 5z"
+                      fill="none"
+                    />
+                    <path
+                      d="M11 9h2V6h3V4h-3V1h-2v3H8v2h3v3zm-4 9c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zm10 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2zm-9.83-3.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.86-7.01L19.42 4h-.01l-1.1 2-2.76 5H8.53l-.13-.27L6.16 6l-.95-2-.94-2H1v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.13 0-.25-.11-.25-.25z"
+                    />
+                  </svg>
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 MuiGrid-grid-lg-3"
+        >
+          <div
+            class="MuiPaper-root MuiCard-root makeStyles-card-204 MuiPaper-elevation1 MuiPaper-rounded"
+          >
+            <div
+              style="width: 100%;"
+            >
+              <div
+                class="MuiCardMedia-root makeStyles-media-205"
+                style="background-image: url(http://static.tvmaze.com/uploads/images/medium_landscape/1/4393.jpg);"
+                title="The Endless Thirst"
+              />
+              <div
+                class="MuiCardContent-root"
+              >
+                <h2
+                  class="MuiTypography-root makeStyles-title-208 MuiTypography-h5"
+                >
+                  The Endless Thirst
+                </h2>
+                <p
+                  class="MuiTypography-root MuiTypography-body2 MuiTypography-colorTextSecondary"
+                >
+                  $
+                  300
+                </p>
+              </div>
+            </div>
+            <div
+              class="MuiCardActions-root makeStyles-cardActions-209 MuiCardActions-spacing"
+            >
+              <button
+                class="MuiButtonBase-root MuiFab-root MuiFab-extended MuiFab-sizeMedium"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiFab-label"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root makeStyles-seeButton-207"
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"
+                    />
+                  </svg>
+                  Ver detalle
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                class="MuiButtonBase-root MuiFab-root WithStyles(ForwardRef(Fab))-root-285 MuiFab-extended MuiFab-sizeMedium"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiFab-label"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root makeStyles-addButton-206"
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M0 0h24v24H0zm18.31 6l-2.76 5z"
+                      fill="none"
+                    />
+                    <path
+                      d="M11 9h2V6h3V4h-3V1h-2v3H8v2h3v3zm-4 9c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zm10 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2zm-9.83-3.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.86-7.01L19.42 4h-.01l-1.1 2-2.76 5H8.53l-.13-.27L6.16 6l-.95-2-.94-2H1v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.13 0-.25-.11-.25-.25z"
+                    />
+                  </svg>
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 MuiGrid-grid-lg-3"
+        >
+          <div
+            class="MuiPaper-root MuiCard-root makeStyles-card-204 MuiPaper-elevation1 MuiPaper-rounded"
+          >
+            <div
+              style="width: 100%;"
+            >
+              <div
+                class="MuiCardMedia-root makeStyles-media-205"
+                style="background-image: url(http://static.tvmaze.com/uploads/images/medium_landscape/1/4394.jpg);"
+                title="Imperfect Circles"
+              />
+              <div
+                class="MuiCardContent-root"
+              >
+                <h2
+                  class="MuiTypography-root makeStyles-title-208 MuiTypography-h5"
+                >
+                  Imperfect Circles
+                </h2>
+                <p
+                  class="MuiTypography-root MuiTypography-body2 MuiTypography-colorTextSecondary"
+                >
+                  $
+                  550
+                </p>
+              </div>
+            </div>
+            <div
+              class="MuiCardActions-root makeStyles-cardActions-209 MuiCardActions-spacing"
+            >
+              <button
+                class="MuiButtonBase-root MuiFab-root MuiFab-extended MuiFab-sizeMedium"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiFab-label"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root makeStyles-seeButton-207"
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"
+                    />
+                  </svg>
+                  Ver detalle
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                class="MuiButtonBase-root MuiFab-root WithStyles(ForwardRef(Fab))-root-285 MuiFab-extended MuiFab-sizeMedium"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiFab-label"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root makeStyles-addButton-206"
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M0 0h24v24H0zm18.31 6l-2.76 5z"
+                      fill="none"
+                    />
+                    <path
+                      d="M11 9h2V6h3V4h-3V1h-2v3H8v2h3v3zm-4 9c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zm10 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2zm-9.83-3.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.86-7.01L19.42 4h-.01l-1.1 2-2.76 5H8.53l-.13-.27L6.16 6l-.95-2-.94-2H1v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.13 0-.25-.11-.25-.25z"
+                    />
+                  </svg>
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 MuiGrid-grid-lg-3"
+        >
+          <div
+            class="MuiPaper-root MuiCard-root makeStyles-card-204 MuiPaper-elevation1 MuiPaper-rounded"
+          >
+            <div
+              style="width: 100%;"
+            >
+              <div
+                class="MuiCardMedia-root makeStyles-media-205"
+                style="background-image: url(http://static.tvmaze.com/uploads/images/medium_landscape/1/4395.jpg);"
+                title="Thicker Than Water"
+              />
+              <div
+                class="MuiCardContent-root"
+              >
+                <h2
+                  class="MuiTypography-root makeStyles-title-208 MuiTypography-h5"
+                >
+                  Thicker Than Water
+                </h2>
+                <p
+                  class="MuiTypography-root MuiTypography-body2 MuiTypography-colorTextSecondary"
+                >
+                  $
+                  600
+                </p>
+              </div>
+            </div>
+            <div
+              class="MuiCardActions-root makeStyles-cardActions-209 MuiCardActions-spacing"
+            >
+              <button
+                class="MuiButtonBase-root MuiFab-root MuiFab-extended MuiFab-sizeMedium"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiFab-label"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root makeStyles-seeButton-207"
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"
+                    />
+                  </svg>
+                  Ver detalle
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                class="MuiButtonBase-root MuiFab-root WithStyles(ForwardRef(Fab))-root-285 MuiFab-extended MuiFab-sizeMedium"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiFab-label"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root makeStyles-addButton-206"
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M0 0h24v24H0zm18.31 6l-2.76 5z"
+                      fill="none"
+                    />
+                    <path
+                      d="M11 9h2V6h3V4h-3V1h-2v3H8v2h3v3zm-4 9c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zm10 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2zm-9.83-3.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.86-7.01L19.42 4h-.01l-1.1 2-2.76 5H8.53l-.13-.27L6.16 6l-.95-2-.94-2H1v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.13 0-.25-.11-.25-.25z"
+                    />
+                  </svg>
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 MuiGrid-grid-lg-3"
+        >
+          <div
+            class="MuiPaper-root MuiCard-root makeStyles-card-204 MuiPaper-elevation1 MuiPaper-rounded"
+          >
+            <div
+              style="width: 100%;"
+            >
+              <div
+                class="MuiCardMedia-root makeStyles-media-205"
+                style="background-image: url(http://static.tvmaze.com/uploads/images/medium_landscape/1/4396.jpg);"
+                title="The Fourth Hand"
+              />
+              <div
+                class="MuiCardContent-root"
+              >
+                <h2
+                  class="MuiTypography-root makeStyles-title-208 MuiTypography-h5"
+                >
+                  The Fourth Hand
+                </h2>
+                <p
+                  class="MuiTypography-root MuiTypography-body2 MuiTypography-colorTextSecondary"
+                >
+                  $
+                  800
+                </p>
+              </div>
+            </div>
+            <div
+              class="MuiCardActions-root makeStyles-cardActions-209 MuiCardActions-spacing"
+            >
+              <button
+                class="MuiButtonBase-root MuiFab-root MuiFab-extended MuiFab-sizeMedium"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiFab-label"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root makeStyles-seeButton-207"
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"
+                    />
+                  </svg>
+                  Ver detalle
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                class="MuiButtonBase-root MuiFab-root WithStyles(ForwardRef(Fab))-root-285 MuiFab-extended MuiFab-sizeMedium"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiFab-label"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root makeStyles-addButton-206"
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M0 0h24v24H0zm18.31 6l-2.76 5z"
+                      fill="none"
+                    />
+                    <path
+                      d="M11 9h2V6h3V4h-3V1h-2v3H8v2h3v3zm-4 9c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zm10 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2zm-9.83-3.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.86-7.01L19.42 4h-.01l-1.1 2-2.76 5H8.53l-.13-.27L6.16 6l-.95-2-.94-2H1v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.13 0-.25-.11-.25-.25z"
+                    />
+                  </svg>
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 MuiGrid-grid-lg-3"
+        >
+          <div
+            class="MuiPaper-root MuiCard-root makeStyles-card-204 MuiPaper-elevation1 MuiPaper-rounded"
+          >
+            <div
+              style="width: 100%;"
+            >
+              <div
+                class="MuiCardMedia-root makeStyles-media-205"
+                style="background-image: url(http://static.tvmaze.com/uploads/images/medium_landscape/1/4397.jpg);"
+                title="Let the Games Begin"
+              />
+              <div
+                class="MuiCardContent-root"
+              >
+                <h2
+                  class="MuiTypography-root makeStyles-title-208 MuiTypography-h5"
+                >
+                  Let the Games Begin
+                </h2>
+                <p
+                  class="MuiTypography-root MuiTypography-body2 MuiTypography-colorTextSecondary"
+                >
+                  $
+                  400
+                </p>
+              </div>
+            </div>
+            <div
+              class="MuiCardActions-root makeStyles-cardActions-209 MuiCardActions-spacing"
+            >
+              <button
+                class="MuiButtonBase-root MuiFab-root MuiFab-extended MuiFab-sizeMedium"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiFab-label"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root makeStyles-seeButton-207"
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"
+                    />
+                  </svg>
+                  Ver detalle
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                class="MuiButtonBase-root MuiFab-root WithStyles(ForwardRef(Fab))-root-285 MuiFab-extended MuiFab-sizeMedium"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiFab-label"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root makeStyles-addButton-206"
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M0 0h24v24H0zm18.31 6l-2.76 5z"
+                      fill="none"
+                    />
+                    <path
+                      d="M11 9h2V6h3V4h-3V1h-2v3H8v2h3v3zm-4 9c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zm10 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2zm-9.83-3.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.86-7.01L19.42 4h-.01l-1.1 2-2.76 5H8.53l-.13-.27L6.16 6l-.95-2-.94-2H1v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.13 0-.25-.11-.25-.25z"
+                    />
+                  </svg>
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 MuiGrid-grid-lg-3"
+        >
+          <div
+            class="MuiPaper-root MuiCard-root makeStyles-card-204 MuiPaper-elevation1 MuiPaper-rounded"
+          >
+            <div
+              style="width: 100%;"
+            >
+              <div
+                class="MuiCardMedia-root makeStyles-media-205"
+                style="background-image: url(http://static.tvmaze.com/uploads/images/medium_landscape/1/4398.jpg);"
+                title="Speak of the Devil"
+              />
+              <div
+                class="MuiCardContent-root"
+              >
+                <h2
+                  class="MuiTypography-root makeStyles-title-208 MuiTypography-h5"
+                >
+                  Speak of the Devil
+                </h2>
+                <p
+                  class="MuiTypography-root MuiTypography-body2 MuiTypography-colorTextSecondary"
+                >
+                  $
+                  300
+                </p>
+              </div>
+            </div>
+            <div
+              class="MuiCardActions-root makeStyles-cardActions-209 MuiCardActions-spacing"
+            >
+              <button
+                class="MuiButtonBase-root MuiFab-root MuiFab-extended MuiFab-sizeMedium"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiFab-label"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root makeStyles-seeButton-207"
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"
+                    />
+                  </svg>
+                  Ver detalle
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                class="MuiButtonBase-root MuiFab-root WithStyles(ForwardRef(Fab))-root-285 MuiFab-extended MuiFab-sizeMedium"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiFab-label"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root makeStyles-addButton-206"
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M0 0h24v24H0zm18.31 6l-2.76 5z"
+                      fill="none"
+                    />
+                    <path
+                      d="M11 9h2V6h3V4h-3V1h-2v3H8v2h3v3zm-4 9c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zm10 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2zm-9.83-3.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.86-7.01L19.42 4h-.01l-1.1 2-2.76 5H8.53l-.13-.27L6.16 6l-.95-2-.94-2H1v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.13 0-.25-.11-.25-.25z"
+                    />
+                  </svg>
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 MuiGrid-grid-lg-3"
+        >
+          <div
+            class="MuiPaper-root MuiCard-root makeStyles-card-204 MuiPaper-elevation1 MuiPaper-rounded"
+          >
+            <div
+              style="width: 100%;"
+            >
+              <div
+                class="MuiCardMedia-root makeStyles-media-205"
+                style="background-image: url(http://static.tvmaze.com/uploads/images/medium_landscape/1/4399.jpg);"
+                title="Exigent Circumstances"
+              />
+              <div
+                class="MuiCardContent-root"
+              >
+                <h2
+                  class="MuiTypography-root makeStyles-title-208 MuiTypography-h5"
+                >
+                  Exigent Circumstances
+                </h2>
+                <p
+                  class="MuiTypography-root MuiTypography-body2 MuiTypography-colorTextSecondary"
+                >
+                  $
+                  350
+                </p>
+              </div>
+            </div>
+            <div
+              class="MuiCardActions-root makeStyles-cardActions-209 MuiCardActions-spacing"
+            >
+              <button
+                class="MuiButtonBase-root MuiFab-root MuiFab-extended MuiFab-sizeMedium"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiFab-label"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root makeStyles-seeButton-207"
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"
+                    />
+                  </svg>
+                  Ver detalle
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                class="MuiButtonBase-root MuiFab-root WithStyles(ForwardRef(Fab))-root-285 MuiFab-extended MuiFab-sizeMedium"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiFab-label"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root makeStyles-addButton-206"
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M0 0h24v24H0zm18.31 6l-2.76 5z"
+                      fill="none"
+                    />
+                    <path
+                      d="M11 9h2V6h3V4h-3V1h-2v3H8v2h3v3zm-4 9c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zm10 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2zm-9.83-3.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.86-7.01L19.42 4h-.01l-1.1 2-2.76 5H8.53l-.13-.27L6.16 6l-.95-2-.94-2H1v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.13 0-.25-.11-.25-.25z"
+                    />
+                  </svg>
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 MuiGrid-grid-lg-3"
+        >
+          <div
+            class="MuiPaper-root MuiCard-root makeStyles-card-204 MuiPaper-elevation1 MuiPaper-rounded"
+          >
+            <div
+              style="width: 100%;"
+            >
+              <div
+                class="MuiCardMedia-root makeStyles-media-205"
+                style="background-image: url(http://static.tvmaze.com/uploads/images/medium_landscape/1/4400.jpg);"
+                title="Curtains"
+              />
+              <div
+                class="MuiCardContent-root"
+              >
+                <h2
+                  class="MuiTypography-root makeStyles-title-208 MuiTypography-h5"
+                >
+                  Curtains
+                </h2>
+                <p
+                  class="MuiTypography-root MuiTypography-body2 MuiTypography-colorTextSecondary"
+                >
+                  $
+                  440
+                </p>
+              </div>
+            </div>
+            <div
+              class="MuiCardActions-root makeStyles-cardActions-209 MuiCardActions-spacing"
+            >
+              <button
+                class="MuiButtonBase-root MuiFab-root MuiFab-extended MuiFab-sizeMedium"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiFab-label"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root makeStyles-seeButton-207"
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"
+                    />
+                  </svg>
+                  Ver detalle
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                class="MuiButtonBase-root MuiFab-root WithStyles(ForwardRef(Fab))-root-285 MuiFab-extended MuiFab-sizeMedium"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiFab-label"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root makeStyles-addButton-206"
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M0 0h24v24H0zm18.31 6l-2.76 5z"
+                      fill="none"
+                    />
+                    <path
+                      d="M11 9h2V6h3V4h-3V1h-2v3H8v2h3v3zm-4 9c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zm10 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2zm-9.83-3.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.86-7.01L19.42 4h-.01l-1.1 2-2.76 5H8.53l-.13-.27L6.16 6l-.95-2-.94-2H1v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.13 0-.25-.11-.25-.25z"
+                    />
+                  </svg>
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 MuiGrid-grid-lg-3"
+        >
+          <div
+            class="MuiPaper-root MuiCard-root makeStyles-card-204 MuiPaper-elevation1 MuiPaper-rounded"
+          >
+            <div
+              style="width: 100%;"
+            >
+              <div
+                class="MuiCardMedia-root makeStyles-media-205"
+                style="background-image: url(http://static.tvmaze.com/uploads/images/medium_landscape/4/10446.jpg);"
+                title="Heads Will Roll"
+              />
+              <div
+                class="MuiCardContent-root"
+              >
+                <h2
+                  class="MuiTypography-root makeStyles-title-208 MuiTypography-h5"
+                >
+                  Heads Will Roll
+                </h2>
+                <p
+                  class="MuiTypography-root MuiTypography-body2 MuiTypography-colorTextSecondary"
+                >
+                  $
+                  550
+                </p>
+              </div>
+            </div>
+            <div
+              class="MuiCardActions-root makeStyles-cardActions-209 MuiCardActions-spacing"
+            >
+              <button
+                class="MuiButtonBase-root MuiFab-root MuiFab-extended MuiFab-sizeMedium"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiFab-label"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root makeStyles-seeButton-207"
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"
+                    />
+                  </svg>
+                  Ver detalle
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                class="MuiButtonBase-root MuiFab-root WithStyles(ForwardRef(Fab))-root-285 MuiFab-extended MuiFab-sizeMedium"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiFab-label"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root makeStyles-addButton-206"
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M0 0h24v24H0zm18.31 6l-2.76 5z"
+                      fill="none"
+                    />
+                    <path
+                      d="M11 9h2V6h3V4h-3V1h-2v3H8v2h3v3zm-4 9c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zm10 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2zm-9.83-3.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.86-7.01L19.42 4h-.01l-1.1 2-2.76 5H8.53l-.13-.27L6.16 6l-.95-2-.94-2H1v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.13 0-.25-.11-.25-.25z"
+                    />
+                  </svg>
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 MuiGrid-grid-lg-3"
+        >
+          <div
+            class="MuiPaper-root MuiCard-root makeStyles-card-204 MuiPaper-elevation1 MuiPaper-rounded"
+          >
+            <div
+              style="width: 100%;"
+            >
+              <div
+                class="MuiCardMedia-root makeStyles-media-205"
+                style="background-image: url(http://static.tvmaze.com/uploads/images/medium_landscape/4/10447.jpg);"
+                title="Infestation"
+              />
+              <div
+                class="MuiCardContent-root"
+              >
+                <h2
+                  class="MuiTypography-root makeStyles-title-208 MuiTypography-h5"
+                >
+                  Infestation
+                </h2>
+                <p
+                  class="MuiTypography-root MuiTypography-body2 MuiTypography-colorTextSecondary"
+                >
+                  $
+                  1000
+                </p>
+              </div>
+            </div>
+            <div
+              class="MuiCardActions-root makeStyles-cardActions-209 MuiCardActions-spacing"
+            >
+              <button
+                class="MuiButtonBase-root MuiFab-root MuiFab-extended MuiFab-sizeMedium"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiFab-label"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root makeStyles-seeButton-207"
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"
+                    />
+                  </svg>
+                  Ver detalle
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                class="MuiButtonBase-root MuiFab-root WithStyles(ForwardRef(Fab))-root-285 MuiFab-extended MuiFab-sizeMedium"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiFab-label"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root makeStyles-addButton-206"
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M0 0h24v24H0zm18.31 6l-2.76 5z"
+                      fill="none"
+                    />
+                    <path
+                      d="M11 9h2V6h3V4h-3V1h-2v3H8v2h3v3zm-4 9c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zm10 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2zm-9.83-3.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.86-7.01L19.42 4h-.01l-1.1 2-2.76 5H8.53l-.13-.27L6.16 6l-.95-2-.94-2H1v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.13 0-.25-.11-.25-.25z"
+                    />
+                  </svg>
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 MuiGrid-grid-lg-3"
+        >
+          <div
+            class="MuiPaper-root MuiCard-root makeStyles-card-204 MuiPaper-elevation1 MuiPaper-rounded"
+          >
+            <div
+              style="width: 100%;"
+            >
+              <div
+                class="MuiCardMedia-root makeStyles-media-205"
+                style="background-image: url(http://static.tvmaze.com/uploads/images/medium_landscape/4/10448.jpg);"
+                title="Force Majeure"
+              />
+              <div
+                class="MuiCardContent-root"
+              >
+                <h2
+                  class="MuiTypography-root makeStyles-title-208 MuiTypography-h5"
+                >
+                  Force Majeure
+                </h2>
+                <p
+                  class="MuiTypography-root MuiTypography-body2 MuiTypography-colorTextSecondary"
+                >
+                  $
+                  200
+                </p>
+              </div>
+            </div>
+            <div
+              class="MuiCardActions-root makeStyles-cardActions-209 MuiCardActions-spacing"
+            >
+              <button
+                class="MuiButtonBase-root MuiFab-root MuiFab-extended MuiFab-sizeMedium"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiFab-label"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root makeStyles-seeButton-207"
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"
+                    />
+                  </svg>
+                  Ver detalle
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                class="MuiButtonBase-root MuiFab-root WithStyles(ForwardRef(Fab))-root-285 MuiFab-extended MuiFab-sizeMedium"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiFab-label"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root makeStyles-addButton-206"
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M0 0h24v24H0zm18.31 6l-2.76 5z"
+                      fill="none"
+                    />
+                    <path
+                      d="M11 9h2V6h3V4h-3V1h-2v3H8v2h3v3zm-4 9c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zm10 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2zm-9.83-3.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.86-7.01L19.42 4h-.01l-1.1 2-2.76 5H8.53l-.13-.27L6.16 6l-.95-2-.94-2H1v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.13 0-.25-.11-.25-.25z"
+                    />
+                  </svg>
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2"
+      data-testid="GridContainer"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
+      >
+        <div
+          class="MuiContainer-root makeStyles-mainContainer-104 MuiContainer-maxWidthLg"
+        >
+          <div
+            class="MuiFormControl-root MuiFormControl-fullWidth"
+          >
+            <label
+              class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined"
+              data-shrink="false"
+              for="outlined-adornment-amount"
+            >
+              Buscar
+            </label>
+            <div
+              class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl MuiInputBase-adornedEnd MuiOutlinedInput-adornedEnd"
+            >
+              <input
+                aria-invalid="false"
+                class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedEnd MuiOutlinedInput-inputAdornedEnd"
+                id="outlined-adornment-amount"
+                type="text"
+                value=""
+              />
+              <div
+                class="MuiInputAdornment-root MuiInputAdornment-positionStart"
+              >
+                <button
+                  class="MuiButtonBase-root MuiIconButton-root"
+                  tabindex="0"
+                  type="button"
+                >
+                  <span
+                    class="MuiIconButton-label"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root"
+                      focusable="false"
+                      role="presentation"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root"
+                  />
+                </button>
+              </div>
+              <fieldset
+                aria-hidden="true"
+                class="PrivateNotchedOutline-root-202 MuiOutlinedInput-notchedOutline"
+                style="padding-left: 30px;"
+              >
+                <legend
+                  class="PrivateNotchedOutline-legend-203"
+                  style="width: 0.01px;"
+                >
+                  <span>
+                    ​
+                  </span>
+                </legend>
+              </fieldset>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 MuiGrid-grid-lg-3"
+      >
+        <div
+          class="MuiPaper-root MuiCard-root makeStyles-card-204 MuiPaper-elevation1 MuiPaper-rounded"
+        >
+          <div
+            style="width: 100%;"
+          >
+            <div
+              class="MuiCardMedia-root makeStyles-media-205"
+              style="background-image: url(http://static.tvmaze.com/uploads/images/medium_landscape/1/4388.jpg);"
+              title="Pilot"
+            />
+            <div
+              class="MuiCardContent-root"
+            >
+              <h2
+                class="MuiTypography-root makeStyles-title-208 MuiTypography-h5"
+              >
+                Pilot
+              </h2>
+              <p
+                class="MuiTypography-root MuiTypography-body2 MuiTypography-colorTextSecondary"
+              >
+                $
+                500
+              </p>
+            </div>
+          </div>
+          <div
+            class="MuiCardActions-root makeStyles-cardActions-209 MuiCardActions-spacing"
+          >
+            <button
+              class="MuiButtonBase-root MuiFab-root MuiFab-extended MuiFab-sizeMedium"
+              tabindex="0"
+              type="button"
+            >
+              <span
+                class="MuiFab-label"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root makeStyles-seeButton-207"
+                  focusable="false"
+                  role="presentation"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"
+                  />
+                </svg>
+                Ver detalle
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+            <button
+              class="MuiButtonBase-root MuiFab-root WithStyles(ForwardRef(Fab))-root-285 MuiFab-extended MuiFab-sizeMedium"
+              tabindex="0"
+              type="button"
+            >
+              <span
+                class="MuiFab-label"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root makeStyles-addButton-206"
+                  focusable="false"
+                  role="presentation"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M0 0h24v24H0zm18.31 6l-2.76 5z"
+                    fill="none"
+                  />
+                  <path
+                    d="M11 9h2V6h3V4h-3V1h-2v3H8v2h3v3zm-4 9c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zm10 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2zm-9.83-3.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.86-7.01L19.42 4h-.01l-1.1 2-2.76 5H8.53l-.13-.27L6.16 6l-.95-2-.94-2H1v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.13 0-.25-.11-.25-.25z"
+                  />
+                </svg>
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 MuiGrid-grid-lg-3"
+      >
+        <div
+          class="MuiPaper-root MuiCard-root makeStyles-card-204 MuiPaper-elevation1 MuiPaper-rounded"
+        >
+          <div
+            style="width: 100%;"
+          >
+            <div
+              class="MuiCardMedia-root makeStyles-media-205"
+              style="background-image: url(http://static.tvmaze.com/uploads/images/medium_landscape/1/4389.jpg);"
+              title="The Fire"
+            />
+            <div
+              class="MuiCardContent-root"
+            >
+              <h2
+                class="MuiTypography-root makeStyles-title-208 MuiTypography-h5"
+              >
+                The Fire
+              </h2>
+              <p
+                class="MuiTypography-root MuiTypography-body2 MuiTypography-colorTextSecondary"
+              >
+                $
+                450
+              </p>
+            </div>
+          </div>
+          <div
+            class="MuiCardActions-root makeStyles-cardActions-209 MuiCardActions-spacing"
+          >
+            <button
+              class="MuiButtonBase-root MuiFab-root MuiFab-extended MuiFab-sizeMedium"
+              tabindex="0"
+              type="button"
+            >
+              <span
+                class="MuiFab-label"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root makeStyles-seeButton-207"
+                  focusable="false"
+                  role="presentation"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"
+                  />
+                </svg>
+                Ver detalle
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+            <button
+              class="MuiButtonBase-root MuiFab-root WithStyles(ForwardRef(Fab))-root-285 MuiFab-extended MuiFab-sizeMedium"
+              tabindex="0"
+              type="button"
+            >
+              <span
+                class="MuiFab-label"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root makeStyles-addButton-206"
+                  focusable="false"
+                  role="presentation"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M0 0h24v24H0zm18.31 6l-2.76 5z"
+                    fill="none"
+                  />
+                  <path
+                    d="M11 9h2V6h3V4h-3V1h-2v3H8v2h3v3zm-4 9c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zm10 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2zm-9.83-3.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.86-7.01L19.42 4h-.01l-1.1 2-2.76 5H8.53l-.13-.27L6.16 6l-.95-2-.94-2H1v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.13 0-.25-.11-.25-.25z"
+                  />
+                </svg>
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 MuiGrid-grid-lg-3"
+      >
+        <div
+          class="MuiPaper-root MuiCard-root makeStyles-card-204 MuiPaper-elevation1 MuiPaper-rounded"
+        >
+          <div
+            style="width: 100%;"
+          >
+            <div
+              class="MuiCardMedia-root makeStyles-media-205"
+              style="background-image: url(http://static.tvmaze.com/uploads/images/medium_landscape/1/4390.jpg);"
+              title="Manhunt"
+            />
+            <div
+              class="MuiCardContent-root"
+            >
+              <h2
+                class="MuiTypography-root makeStyles-title-208 MuiTypography-h5"
+              >
+                Manhunt
+              </h2>
+              <p
+                class="MuiTypography-root MuiTypography-body2 MuiTypography-colorTextSecondary"
+              >
+                $
+                480
+              </p>
+            </div>
+          </div>
+          <div
+            class="MuiCardActions-root makeStyles-cardActions-209 MuiCardActions-spacing"
+          >
+            <button
+              class="MuiButtonBase-root MuiFab-root MuiFab-extended MuiFab-sizeMedium"
+              tabindex="0"
+              type="button"
+            >
+              <span
+                class="MuiFab-label"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root makeStyles-seeButton-207"
+                  focusable="false"
+                  role="presentation"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"
+                  />
+                </svg>
+                Ver detalle
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+            <button
+              class="MuiButtonBase-root MuiFab-root WithStyles(ForwardRef(Fab))-root-285 MuiFab-extended MuiFab-sizeMedium"
+              tabindex="0"
+              type="button"
+            >
+              <span
+                class="MuiFab-label"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root makeStyles-addButton-206"
+                  focusable="false"
+                  role="presentation"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M0 0h24v24H0zm18.31 6l-2.76 5z"
+                    fill="none"
+                  />
+                  <path
+                    d="M11 9h2V6h3V4h-3V1h-2v3H8v2h3v3zm-4 9c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zm10 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2zm-9.83-3.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.86-7.01L19.42 4h-.01l-1.1 2-2.76 5H8.53l-.13-.27L6.16 6l-.95-2-.94-2H1v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.13 0-.25-.11-.25-.25z"
+                  />
+                </svg>
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 MuiGrid-grid-lg-3"
+      >
+        <div
+          class="MuiPaper-root MuiCard-root makeStyles-card-204 MuiPaper-elevation1 MuiPaper-rounded"
+        >
+          <div
+            style="width: 100%;"
+          >
+            <div
+              class="MuiCardMedia-root makeStyles-media-205"
+              style="background-image: url(http://static.tvmaze.com/uploads/images/medium_landscape/1/4391.jpg);"
+              title="Outbreak"
+            />
+            <div
+              class="MuiCardContent-root"
+            >
+              <h2
+                class="MuiTypography-root makeStyles-title-208 MuiTypography-h5"
+              >
+                Outbreak
+              </h2>
+              <p
+                class="MuiTypography-root MuiTypography-body2 MuiTypography-colorTextSecondary"
+              >
+                $
+                550
+              </p>
+            </div>
+          </div>
+          <div
+            class="MuiCardActions-root makeStyles-cardActions-209 MuiCardActions-spacing"
+          >
+            <button
+              class="MuiButtonBase-root MuiFab-root MuiFab-extended MuiFab-sizeMedium"
+              tabindex="0"
+              type="button"
+            >
+              <span
+                class="MuiFab-label"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root makeStyles-seeButton-207"
+                  focusable="false"
+                  role="presentation"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"
+                  />
+                </svg>
+                Ver detalle
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+            <button
+              class="MuiButtonBase-root MuiFab-root WithStyles(ForwardRef(Fab))-root-285 MuiFab-extended MuiFab-sizeMedium"
+              tabindex="0"
+              type="button"
+            >
+              <span
+                class="MuiFab-label"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root makeStyles-addButton-206"
+                  focusable="false"
+                  role="presentation"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M0 0h24v24H0zm18.31 6l-2.76 5z"
+                    fill="none"
+                  />
+                  <path
+                    d="M11 9h2V6h3V4h-3V1h-2v3H8v2h3v3zm-4 9c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zm10 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2zm-9.83-3.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.86-7.01L19.42 4h-.01l-1.1 2-2.76 5H8.53l-.13-.27L6.16 6l-.95-2-.94-2H1v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.13 0-.25-.11-.25-.25z"
+                  />
+                </svg>
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 MuiGrid-grid-lg-3"
+      >
+        <div
+          class="MuiPaper-root MuiCard-root makeStyles-card-204 MuiPaper-elevation1 MuiPaper-rounded"
+        >
+          <div
+            style="width: 100%;"
+          >
+            <div
+              class="MuiCardMedia-root makeStyles-media-205"
+              style="background-image: url(http://static.tvmaze.com/uploads/images/medium_landscape/1/4392.jpg);"
+              title="Blue on Blue"
+            />
+            <div
+              class="MuiCardContent-root"
+            >
+              <h2
+                class="MuiTypography-root makeStyles-title-208 MuiTypography-h5"
+              >
+                Blue on Blue
+              </h2>
+              <p
+                class="MuiTypography-root MuiTypography-body2 MuiTypography-colorTextSecondary"
+              >
+                $
+                600
+              </p>
+            </div>
+          </div>
+          <div
+            class="MuiCardActions-root makeStyles-cardActions-209 MuiCardActions-spacing"
+          >
+            <button
+              class="MuiButtonBase-root MuiFab-root MuiFab-extended MuiFab-sizeMedium"
+              tabindex="0"
+              type="button"
+            >
+              <span
+                class="MuiFab-label"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root makeStyles-seeButton-207"
+                  focusable="false"
+                  role="presentation"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"
+                  />
+                </svg>
+                Ver detalle
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+            <button
+              class="MuiButtonBase-root MuiFab-root WithStyles(ForwardRef(Fab))-root-285 MuiFab-extended MuiFab-sizeMedium"
+              tabindex="0"
+              type="button"
+            >
+              <span
+                class="MuiFab-label"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root makeStyles-addButton-206"
+                  focusable="false"
+                  role="presentation"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M0 0h24v24H0zm18.31 6l-2.76 5z"
+                    fill="none"
+                  />
+                  <path
+                    d="M11 9h2V6h3V4h-3V1h-2v3H8v2h3v3zm-4 9c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zm10 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2zm-9.83-3.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.86-7.01L19.42 4h-.01l-1.1 2-2.76 5H8.53l-.13-.27L6.16 6l-.95-2-.94-2H1v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.13 0-.25-.11-.25-.25z"
+                  />
+                </svg>
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 MuiGrid-grid-lg-3"
+      >
+        <div
+          class="MuiPaper-root MuiCard-root makeStyles-card-204 MuiPaper-elevation1 MuiPaper-rounded"
+        >
+          <div
+            style="width: 100%;"
+          >
+            <div
+              class="MuiCardMedia-root makeStyles-media-205"
+              style="background-image: url(http://static.tvmaze.com/uploads/images/medium_landscape/1/4393.jpg);"
+              title="The Endless Thirst"
+            />
+            <div
+              class="MuiCardContent-root"
+            >
+              <h2
+                class="MuiTypography-root makeStyles-title-208 MuiTypography-h5"
+              >
+                The Endless Thirst
+              </h2>
+              <p
+                class="MuiTypography-root MuiTypography-body2 MuiTypography-colorTextSecondary"
+              >
+                $
+                300
+              </p>
+            </div>
+          </div>
+          <div
+            class="MuiCardActions-root makeStyles-cardActions-209 MuiCardActions-spacing"
+          >
+            <button
+              class="MuiButtonBase-root MuiFab-root MuiFab-extended MuiFab-sizeMedium"
+              tabindex="0"
+              type="button"
+            >
+              <span
+                class="MuiFab-label"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root makeStyles-seeButton-207"
+                  focusable="false"
+                  role="presentation"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"
+                  />
+                </svg>
+                Ver detalle
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+            <button
+              class="MuiButtonBase-root MuiFab-root WithStyles(ForwardRef(Fab))-root-285 MuiFab-extended MuiFab-sizeMedium"
+              tabindex="0"
+              type="button"
+            >
+              <span
+                class="MuiFab-label"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root makeStyles-addButton-206"
+                  focusable="false"
+                  role="presentation"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M0 0h24v24H0zm18.31 6l-2.76 5z"
+                    fill="none"
+                  />
+                  <path
+                    d="M11 9h2V6h3V4h-3V1h-2v3H8v2h3v3zm-4 9c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zm10 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2zm-9.83-3.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.86-7.01L19.42 4h-.01l-1.1 2-2.76 5H8.53l-.13-.27L6.16 6l-.95-2-.94-2H1v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.13 0-.25-.11-.25-.25z"
+                  />
+                </svg>
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 MuiGrid-grid-lg-3"
+      >
+        <div
+          class="MuiPaper-root MuiCard-root makeStyles-card-204 MuiPaper-elevation1 MuiPaper-rounded"
+        >
+          <div
+            style="width: 100%;"
+          >
+            <div
+              class="MuiCardMedia-root makeStyles-media-205"
+              style="background-image: url(http://static.tvmaze.com/uploads/images/medium_landscape/1/4394.jpg);"
+              title="Imperfect Circles"
+            />
+            <div
+              class="MuiCardContent-root"
+            >
+              <h2
+                class="MuiTypography-root makeStyles-title-208 MuiTypography-h5"
+              >
+                Imperfect Circles
+              </h2>
+              <p
+                class="MuiTypography-root MuiTypography-body2 MuiTypography-colorTextSecondary"
+              >
+                $
+                550
+              </p>
+            </div>
+          </div>
+          <div
+            class="MuiCardActions-root makeStyles-cardActions-209 MuiCardActions-spacing"
+          >
+            <button
+              class="MuiButtonBase-root MuiFab-root MuiFab-extended MuiFab-sizeMedium"
+              tabindex="0"
+              type="button"
+            >
+              <span
+                class="MuiFab-label"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root makeStyles-seeButton-207"
+                  focusable="false"
+                  role="presentation"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"
+                  />
+                </svg>
+                Ver detalle
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+            <button
+              class="MuiButtonBase-root MuiFab-root WithStyles(ForwardRef(Fab))-root-285 MuiFab-extended MuiFab-sizeMedium"
+              tabindex="0"
+              type="button"
+            >
+              <span
+                class="MuiFab-label"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root makeStyles-addButton-206"
+                  focusable="false"
+                  role="presentation"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M0 0h24v24H0zm18.31 6l-2.76 5z"
+                    fill="none"
+                  />
+                  <path
+                    d="M11 9h2V6h3V4h-3V1h-2v3H8v2h3v3zm-4 9c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zm10 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2zm-9.83-3.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.86-7.01L19.42 4h-.01l-1.1 2-2.76 5H8.53l-.13-.27L6.16 6l-.95-2-.94-2H1v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.13 0-.25-.11-.25-.25z"
+                  />
+                </svg>
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 MuiGrid-grid-lg-3"
+      >
+        <div
+          class="MuiPaper-root MuiCard-root makeStyles-card-204 MuiPaper-elevation1 MuiPaper-rounded"
+        >
+          <div
+            style="width: 100%;"
+          >
+            <div
+              class="MuiCardMedia-root makeStyles-media-205"
+              style="background-image: url(http://static.tvmaze.com/uploads/images/medium_landscape/1/4395.jpg);"
+              title="Thicker Than Water"
+            />
+            <div
+              class="MuiCardContent-root"
+            >
+              <h2
+                class="MuiTypography-root makeStyles-title-208 MuiTypography-h5"
+              >
+                Thicker Than Water
+              </h2>
+              <p
+                class="MuiTypography-root MuiTypography-body2 MuiTypography-colorTextSecondary"
+              >
+                $
+                600
+              </p>
+            </div>
+          </div>
+          <div
+            class="MuiCardActions-root makeStyles-cardActions-209 MuiCardActions-spacing"
+          >
+            <button
+              class="MuiButtonBase-root MuiFab-root MuiFab-extended MuiFab-sizeMedium"
+              tabindex="0"
+              type="button"
+            >
+              <span
+                class="MuiFab-label"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root makeStyles-seeButton-207"
+                  focusable="false"
+                  role="presentation"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"
+                  />
+                </svg>
+                Ver detalle
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+            <button
+              class="MuiButtonBase-root MuiFab-root WithStyles(ForwardRef(Fab))-root-285 MuiFab-extended MuiFab-sizeMedium"
+              tabindex="0"
+              type="button"
+            >
+              <span
+                class="MuiFab-label"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root makeStyles-addButton-206"
+                  focusable="false"
+                  role="presentation"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M0 0h24v24H0zm18.31 6l-2.76 5z"
+                    fill="none"
+                  />
+                  <path
+                    d="M11 9h2V6h3V4h-3V1h-2v3H8v2h3v3zm-4 9c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zm10 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2zm-9.83-3.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.86-7.01L19.42 4h-.01l-1.1 2-2.76 5H8.53l-.13-.27L6.16 6l-.95-2-.94-2H1v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.13 0-.25-.11-.25-.25z"
+                  />
+                </svg>
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 MuiGrid-grid-lg-3"
+      >
+        <div
+          class="MuiPaper-root MuiCard-root makeStyles-card-204 MuiPaper-elevation1 MuiPaper-rounded"
+        >
+          <div
+            style="width: 100%;"
+          >
+            <div
+              class="MuiCardMedia-root makeStyles-media-205"
+              style="background-image: url(http://static.tvmaze.com/uploads/images/medium_landscape/1/4396.jpg);"
+              title="The Fourth Hand"
+            />
+            <div
+              class="MuiCardContent-root"
+            >
+              <h2
+                class="MuiTypography-root makeStyles-title-208 MuiTypography-h5"
+              >
+                The Fourth Hand
+              </h2>
+              <p
+                class="MuiTypography-root MuiTypography-body2 MuiTypography-colorTextSecondary"
+              >
+                $
+                800
+              </p>
+            </div>
+          </div>
+          <div
+            class="MuiCardActions-root makeStyles-cardActions-209 MuiCardActions-spacing"
+          >
+            <button
+              class="MuiButtonBase-root MuiFab-root MuiFab-extended MuiFab-sizeMedium"
+              tabindex="0"
+              type="button"
+            >
+              <span
+                class="MuiFab-label"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root makeStyles-seeButton-207"
+                  focusable="false"
+                  role="presentation"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"
+                  />
+                </svg>
+                Ver detalle
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+            <button
+              class="MuiButtonBase-root MuiFab-root WithStyles(ForwardRef(Fab))-root-285 MuiFab-extended MuiFab-sizeMedium"
+              tabindex="0"
+              type="button"
+            >
+              <span
+                class="MuiFab-label"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root makeStyles-addButton-206"
+                  focusable="false"
+                  role="presentation"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M0 0h24v24H0zm18.31 6l-2.76 5z"
+                    fill="none"
+                  />
+                  <path
+                    d="M11 9h2V6h3V4h-3V1h-2v3H8v2h3v3zm-4 9c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zm10 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2zm-9.83-3.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.86-7.01L19.42 4h-.01l-1.1 2-2.76 5H8.53l-.13-.27L6.16 6l-.95-2-.94-2H1v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.13 0-.25-.11-.25-.25z"
+                  />
+                </svg>
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 MuiGrid-grid-lg-3"
+      >
+        <div
+          class="MuiPaper-root MuiCard-root makeStyles-card-204 MuiPaper-elevation1 MuiPaper-rounded"
+        >
+          <div
+            style="width: 100%;"
+          >
+            <div
+              class="MuiCardMedia-root makeStyles-media-205"
+              style="background-image: url(http://static.tvmaze.com/uploads/images/medium_landscape/1/4397.jpg);"
+              title="Let the Games Begin"
+            />
+            <div
+              class="MuiCardContent-root"
+            >
+              <h2
+                class="MuiTypography-root makeStyles-title-208 MuiTypography-h5"
+              >
+                Let the Games Begin
+              </h2>
+              <p
+                class="MuiTypography-root MuiTypography-body2 MuiTypography-colorTextSecondary"
+              >
+                $
+                400
+              </p>
+            </div>
+          </div>
+          <div
+            class="MuiCardActions-root makeStyles-cardActions-209 MuiCardActions-spacing"
+          >
+            <button
+              class="MuiButtonBase-root MuiFab-root MuiFab-extended MuiFab-sizeMedium"
+              tabindex="0"
+              type="button"
+            >
+              <span
+                class="MuiFab-label"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root makeStyles-seeButton-207"
+                  focusable="false"
+                  role="presentation"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"
+                  />
+                </svg>
+                Ver detalle
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+            <button
+              class="MuiButtonBase-root MuiFab-root WithStyles(ForwardRef(Fab))-root-285 MuiFab-extended MuiFab-sizeMedium"
+              tabindex="0"
+              type="button"
+            >
+              <span
+                class="MuiFab-label"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root makeStyles-addButton-206"
+                  focusable="false"
+                  role="presentation"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M0 0h24v24H0zm18.31 6l-2.76 5z"
+                    fill="none"
+                  />
+                  <path
+                    d="M11 9h2V6h3V4h-3V1h-2v3H8v2h3v3zm-4 9c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zm10 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2zm-9.83-3.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.86-7.01L19.42 4h-.01l-1.1 2-2.76 5H8.53l-.13-.27L6.16 6l-.95-2-.94-2H1v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.13 0-.25-.11-.25-.25z"
+                  />
+                </svg>
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 MuiGrid-grid-lg-3"
+      >
+        <div
+          class="MuiPaper-root MuiCard-root makeStyles-card-204 MuiPaper-elevation1 MuiPaper-rounded"
+        >
+          <div
+            style="width: 100%;"
+          >
+            <div
+              class="MuiCardMedia-root makeStyles-media-205"
+              style="background-image: url(http://static.tvmaze.com/uploads/images/medium_landscape/1/4398.jpg);"
+              title="Speak of the Devil"
+            />
+            <div
+              class="MuiCardContent-root"
+            >
+              <h2
+                class="MuiTypography-root makeStyles-title-208 MuiTypography-h5"
+              >
+                Speak of the Devil
+              </h2>
+              <p
+                class="MuiTypography-root MuiTypography-body2 MuiTypography-colorTextSecondary"
+              >
+                $
+                300
+              </p>
+            </div>
+          </div>
+          <div
+            class="MuiCardActions-root makeStyles-cardActions-209 MuiCardActions-spacing"
+          >
+            <button
+              class="MuiButtonBase-root MuiFab-root MuiFab-extended MuiFab-sizeMedium"
+              tabindex="0"
+              type="button"
+            >
+              <span
+                class="MuiFab-label"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root makeStyles-seeButton-207"
+                  focusable="false"
+                  role="presentation"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"
+                  />
+                </svg>
+                Ver detalle
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+            <button
+              class="MuiButtonBase-root MuiFab-root WithStyles(ForwardRef(Fab))-root-285 MuiFab-extended MuiFab-sizeMedium"
+              tabindex="0"
+              type="button"
+            >
+              <span
+                class="MuiFab-label"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root makeStyles-addButton-206"
+                  focusable="false"
+                  role="presentation"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M0 0h24v24H0zm18.31 6l-2.76 5z"
+                    fill="none"
+                  />
+                  <path
+                    d="M11 9h2V6h3V4h-3V1h-2v3H8v2h3v3zm-4 9c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zm10 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2zm-9.83-3.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.86-7.01L19.42 4h-.01l-1.1 2-2.76 5H8.53l-.13-.27L6.16 6l-.95-2-.94-2H1v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.13 0-.25-.11-.25-.25z"
+                  />
+                </svg>
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 MuiGrid-grid-lg-3"
+      >
+        <div
+          class="MuiPaper-root MuiCard-root makeStyles-card-204 MuiPaper-elevation1 MuiPaper-rounded"
+        >
+          <div
+            style="width: 100%;"
+          >
+            <div
+              class="MuiCardMedia-root makeStyles-media-205"
+              style="background-image: url(http://static.tvmaze.com/uploads/images/medium_landscape/1/4399.jpg);"
+              title="Exigent Circumstances"
+            />
+            <div
+              class="MuiCardContent-root"
+            >
+              <h2
+                class="MuiTypography-root makeStyles-title-208 MuiTypography-h5"
+              >
+                Exigent Circumstances
+              </h2>
+              <p
+                class="MuiTypography-root MuiTypography-body2 MuiTypography-colorTextSecondary"
+              >
+                $
+                350
+              </p>
+            </div>
+          </div>
+          <div
+            class="MuiCardActions-root makeStyles-cardActions-209 MuiCardActions-spacing"
+          >
+            <button
+              class="MuiButtonBase-root MuiFab-root MuiFab-extended MuiFab-sizeMedium"
+              tabindex="0"
+              type="button"
+            >
+              <span
+                class="MuiFab-label"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root makeStyles-seeButton-207"
+                  focusable="false"
+                  role="presentation"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"
+                  />
+                </svg>
+                Ver detalle
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+            <button
+              class="MuiButtonBase-root MuiFab-root WithStyles(ForwardRef(Fab))-root-285 MuiFab-extended MuiFab-sizeMedium"
+              tabindex="0"
+              type="button"
+            >
+              <span
+                class="MuiFab-label"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root makeStyles-addButton-206"
+                  focusable="false"
+                  role="presentation"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M0 0h24v24H0zm18.31 6l-2.76 5z"
+                    fill="none"
+                  />
+                  <path
+                    d="M11 9h2V6h3V4h-3V1h-2v3H8v2h3v3zm-4 9c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zm10 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2zm-9.83-3.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.86-7.01L19.42 4h-.01l-1.1 2-2.76 5H8.53l-.13-.27L6.16 6l-.95-2-.94-2H1v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.13 0-.25-.11-.25-.25z"
+                  />
+                </svg>
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 MuiGrid-grid-lg-3"
+      >
+        <div
+          class="MuiPaper-root MuiCard-root makeStyles-card-204 MuiPaper-elevation1 MuiPaper-rounded"
+        >
+          <div
+            style="width: 100%;"
+          >
+            <div
+              class="MuiCardMedia-root makeStyles-media-205"
+              style="background-image: url(http://static.tvmaze.com/uploads/images/medium_landscape/1/4400.jpg);"
+              title="Curtains"
+            />
+            <div
+              class="MuiCardContent-root"
+            >
+              <h2
+                class="MuiTypography-root makeStyles-title-208 MuiTypography-h5"
+              >
+                Curtains
+              </h2>
+              <p
+                class="MuiTypography-root MuiTypography-body2 MuiTypography-colorTextSecondary"
+              >
+                $
+                440
+              </p>
+            </div>
+          </div>
+          <div
+            class="MuiCardActions-root makeStyles-cardActions-209 MuiCardActions-spacing"
+          >
+            <button
+              class="MuiButtonBase-root MuiFab-root MuiFab-extended MuiFab-sizeMedium"
+              tabindex="0"
+              type="button"
+            >
+              <span
+                class="MuiFab-label"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root makeStyles-seeButton-207"
+                  focusable="false"
+                  role="presentation"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"
+                  />
+                </svg>
+                Ver detalle
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+            <button
+              class="MuiButtonBase-root MuiFab-root WithStyles(ForwardRef(Fab))-root-285 MuiFab-extended MuiFab-sizeMedium"
+              tabindex="0"
+              type="button"
+            >
+              <span
+                class="MuiFab-label"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root makeStyles-addButton-206"
+                  focusable="false"
+                  role="presentation"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M0 0h24v24H0zm18.31 6l-2.76 5z"
+                    fill="none"
+                  />
+                  <path
+                    d="M11 9h2V6h3V4h-3V1h-2v3H8v2h3v3zm-4 9c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zm10 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2zm-9.83-3.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.86-7.01L19.42 4h-.01l-1.1 2-2.76 5H8.53l-.13-.27L6.16 6l-.95-2-.94-2H1v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.13 0-.25-.11-.25-.25z"
+                  />
+                </svg>
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 MuiGrid-grid-lg-3"
+      >
+        <div
+          class="MuiPaper-root MuiCard-root makeStyles-card-204 MuiPaper-elevation1 MuiPaper-rounded"
+        >
+          <div
+            style="width: 100%;"
+          >
+            <div
+              class="MuiCardMedia-root makeStyles-media-205"
+              style="background-image: url(http://static.tvmaze.com/uploads/images/medium_landscape/4/10446.jpg);"
+              title="Heads Will Roll"
+            />
+            <div
+              class="MuiCardContent-root"
+            >
+              <h2
+                class="MuiTypography-root makeStyles-title-208 MuiTypography-h5"
+              >
+                Heads Will Roll
+              </h2>
+              <p
+                class="MuiTypography-root MuiTypography-body2 MuiTypography-colorTextSecondary"
+              >
+                $
+                550
+              </p>
+            </div>
+          </div>
+          <div
+            class="MuiCardActions-root makeStyles-cardActions-209 MuiCardActions-spacing"
+          >
+            <button
+              class="MuiButtonBase-root MuiFab-root MuiFab-extended MuiFab-sizeMedium"
+              tabindex="0"
+              type="button"
+            >
+              <span
+                class="MuiFab-label"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root makeStyles-seeButton-207"
+                  focusable="false"
+                  role="presentation"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"
+                  />
+                </svg>
+                Ver detalle
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+            <button
+              class="MuiButtonBase-root MuiFab-root WithStyles(ForwardRef(Fab))-root-285 MuiFab-extended MuiFab-sizeMedium"
+              tabindex="0"
+              type="button"
+            >
+              <span
+                class="MuiFab-label"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root makeStyles-addButton-206"
+                  focusable="false"
+                  role="presentation"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M0 0h24v24H0zm18.31 6l-2.76 5z"
+                    fill="none"
+                  />
+                  <path
+                    d="M11 9h2V6h3V4h-3V1h-2v3H8v2h3v3zm-4 9c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zm10 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2zm-9.83-3.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.86-7.01L19.42 4h-.01l-1.1 2-2.76 5H8.53l-.13-.27L6.16 6l-.95-2-.94-2H1v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.13 0-.25-.11-.25-.25z"
+                  />
+                </svg>
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 MuiGrid-grid-lg-3"
+      >
+        <div
+          class="MuiPaper-root MuiCard-root makeStyles-card-204 MuiPaper-elevation1 MuiPaper-rounded"
+        >
+          <div
+            style="width: 100%;"
+          >
+            <div
+              class="MuiCardMedia-root makeStyles-media-205"
+              style="background-image: url(http://static.tvmaze.com/uploads/images/medium_landscape/4/10447.jpg);"
+              title="Infestation"
+            />
+            <div
+              class="MuiCardContent-root"
+            >
+              <h2
+                class="MuiTypography-root makeStyles-title-208 MuiTypography-h5"
+              >
+                Infestation
+              </h2>
+              <p
+                class="MuiTypography-root MuiTypography-body2 MuiTypography-colorTextSecondary"
+              >
+                $
+                1000
+              </p>
+            </div>
+          </div>
+          <div
+            class="MuiCardActions-root makeStyles-cardActions-209 MuiCardActions-spacing"
+          >
+            <button
+              class="MuiButtonBase-root MuiFab-root MuiFab-extended MuiFab-sizeMedium"
+              tabindex="0"
+              type="button"
+            >
+              <span
+                class="MuiFab-label"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root makeStyles-seeButton-207"
+                  focusable="false"
+                  role="presentation"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"
+                  />
+                </svg>
+                Ver detalle
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+            <button
+              class="MuiButtonBase-root MuiFab-root WithStyles(ForwardRef(Fab))-root-285 MuiFab-extended MuiFab-sizeMedium"
+              tabindex="0"
+              type="button"
+            >
+              <span
+                class="MuiFab-label"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root makeStyles-addButton-206"
+                  focusable="false"
+                  role="presentation"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M0 0h24v24H0zm18.31 6l-2.76 5z"
+                    fill="none"
+                  />
+                  <path
+                    d="M11 9h2V6h3V4h-3V1h-2v3H8v2h3v3zm-4 9c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zm10 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2zm-9.83-3.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.86-7.01L19.42 4h-.01l-1.1 2-2.76 5H8.53l-.13-.27L6.16 6l-.95-2-.94-2H1v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.13 0-.25-.11-.25-.25z"
+                  />
+                </svg>
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 MuiGrid-grid-lg-3"
+      >
+        <div
+          class="MuiPaper-root MuiCard-root makeStyles-card-204 MuiPaper-elevation1 MuiPaper-rounded"
+        >
+          <div
+            style="width: 100%;"
+          >
+            <div
+              class="MuiCardMedia-root makeStyles-media-205"
+              style="background-image: url(http://static.tvmaze.com/uploads/images/medium_landscape/4/10448.jpg);"
+              title="Force Majeure"
+            />
+            <div
+              class="MuiCardContent-root"
+            >
+              <h2
+                class="MuiTypography-root makeStyles-title-208 MuiTypography-h5"
+              >
+                Force Majeure
+              </h2>
+              <p
+                class="MuiTypography-root MuiTypography-body2 MuiTypography-colorTextSecondary"
+              >
+                $
+                200
+              </p>
+            </div>
+          </div>
+          <div
+            class="MuiCardActions-root makeStyles-cardActions-209 MuiCardActions-spacing"
+          >
+            <button
+              class="MuiButtonBase-root MuiFab-root MuiFab-extended MuiFab-sizeMedium"
+              tabindex="0"
+              type="button"
+            >
+              <span
+                class="MuiFab-label"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root makeStyles-seeButton-207"
+                  focusable="false"
+                  role="presentation"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"
+                  />
+                </svg>
+                Ver detalle
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+            <button
+              class="MuiButtonBase-root MuiFab-root WithStyles(ForwardRef(Fab))-root-285 MuiFab-extended MuiFab-sizeMedium"
+              tabindex="0"
+              type="button"
+            >
+              <span
+                class="MuiFab-label"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root makeStyles-addButton-206"
+                  focusable="false"
+                  role="presentation"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M0 0h24v24H0zm18.31 6l-2.76 5z"
+                    fill="none"
+                  />
+                  <path
+                    d="M11 9h2V6h3V4h-3V1h-2v3H8v2h3v3zm-4 9c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zm10 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2zm-9.83-3.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.86-7.01L19.42 4h-.01l-1.1 2-2.76 5H8.53l-.13-.27L6.16 6l-.95-2-.94-2H1v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.13 0-.25-.11-.25-.25z"
+                  />
+                </svg>
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
