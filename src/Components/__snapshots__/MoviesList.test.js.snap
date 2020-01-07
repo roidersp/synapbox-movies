@@ -27,6 +27,7 @@ Object {
               </label>
               <div
                 class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl MuiInputBase-adornedEnd MuiOutlinedInput-adornedEnd"
+                data-testid="Input"
               >
                 <input
                   aria-invalid="false"
@@ -40,6 +41,7 @@ Object {
                 >
                   <button
                     class="MuiButtonBase-root MuiIconButton-root"
+                    data-testid="cleanInput"
                     tabindex="0"
                     type="button"
                   >
@@ -1596,6 +1598,7 @@ Object {
             </label>
             <div
               class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl MuiInputBase-adornedEnd MuiOutlinedInput-adornedEnd"
+              data-testid="Input"
             >
               <input
                 aria-invalid="false"
@@ -1609,6 +1612,7 @@ Object {
               >
                 <button
                   class="MuiButtonBase-root MuiIconButton-root"
+                  data-testid="cleanInput"
                   tabindex="0"
                   type="button"
                 >

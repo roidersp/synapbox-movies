@@ -55,9 +55,10 @@ const SearchBox = () => {
           id="outlined-adornment-amount"
           onChange={handleChange}
           value={searchValue}
+          data-testid="Input"
           endAdornment={
             <InputAdornment position="start">
-              <IconButton onClick={cleanInput}>
+              <IconButton onClick={cleanInput} data-testid="cleanInput">
                 <CloseIcon />
               </IconButton>
             </InputAdornment>
@@ -66,7 +67,11 @@ const SearchBox = () => {
         />
       </FormControl>
       {searchValue && (
-        <Container className={classes.mainContainer} fixed>
+        <Container
+          className={classes.mainContainer}
+          fixed
+          data-testid="SearchContainer"
+        >
           <Paper className={classes.listContainer}>
             <SearchList searchValue={searchValue} />
           </Paper>
