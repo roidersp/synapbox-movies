@@ -1,5 +1,5 @@
 import React from "react";
-import { useMutation, useQuery } from "@apollo/react-hooks";
+import { useMutation } from "@apollo/react-hooks";
 
 import { makeStyles, withStyles } from "@material-ui/core/styles";
 import {
@@ -67,18 +67,18 @@ const MovieCard = ({ id, title, image, price }) => {
 
   const [
     mutate,
-    { loading, error, client, called, ...rest }
+    { loading, error, client, called, data }
   ] = useMutation(ADD_TO_CART, { variables: { id } });
 
   const setMovie = () => {
     client.writeData({ data: { movieId: id } });
   };
 
-  if (error) console.log("error", error);
+  if (loading) return <div data-testid="loading">Cargando...</div>;
 
   return (
-    <Grid item lg={3} md={4} sm={6} xs={12}>
-      <Card className={classes.card}>
+    <Grid item lg={3} md={4} sm={6} xs={12} data-testid="GridCard">
+      <Card className={classes.card} data-testid="Card">
         <div style={{ width: "100%" }}>
           <CardMedia className={classes.media} image={image} title={title} />
           <CardContent>
@@ -91,18 +91,22 @@ const MovieCard = ({ id, title, image, price }) => {
           </CardContent>
         </div>
         <CardActions className={classes.cardActions}>
-          <Fab variant="extended" size="medium" onClick={setMovie}>
+          <Fab
+            variant="extended"
+            size="medium"
+            onClick={setMovie}
+            data-testid="ViewDetails"
+          >
             <Visibility className={classes.seeButton} />
             Ver detalle
           </Fab>
-          <CustomIcon variant="extended" size="medium" onClick={mutate}>
-            {loading ? (
-              <p>Cargando...</p>
-            ) : error ? (
-              <p>Ocurrio un error</p>
-            ) : (
-              <AddShoppingCart className={classes.addButton} />
-            )}
+          <CustomIcon
+            variant="extended"
+            size="medium"
+            onClick={mutate}
+            data-testid="addCartButton"
+          >
+            <AddShoppingCart className={classes.addButton} />
           </CustomIcon>
         </CardActions>
       </Card>

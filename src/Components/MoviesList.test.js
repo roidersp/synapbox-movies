@@ -1,17 +1,11 @@
 import React from "react";
 // import {shallow,mount,render} from 'enzyme';
 import { MockedProvider } from "@apollo/react-testing";
-import wait from "waait";
-import { render, act, cleanup } from "@testing-library/react";
+import { render, cleanup } from "@testing-library/react";
 
+import { actWait } from "../Utils/testUtils";
 import MovieList from "./MoviesList";
 import { GET_MOVIES } from "../Actions/queries";
-
-async function actWait(amount = 0) {
-  await act(async () => {
-    await wait(amount);
-  });
-}
 
 afterEach(cleanup);
 
@@ -271,9 +265,3 @@ describe("<MovieList />", () => {
     expect(queryByText("Error! GraphQL error: fake error")).toBeTruthy();
   });
 });
-
-const waitUntilLoadingIsFinished = queryByText =>
-  wait(() => {
-    const isLoading = queryByText("Loading") != null;
-    expect(isLoading).toBe(false);
-  });
