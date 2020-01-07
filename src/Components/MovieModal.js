@@ -25,7 +25,11 @@ const useStyles = makeStyles(theme => ({
     width: "96%",
     display: "flex",
     maxHeight: 400,
-    height: "80vh"
+    height: "80vh",
+    [theme.breakpoints.down("xs")]: {
+      flexDirection: "column",
+      maxHeight: "inherit"
+    }
   }
 }));
 

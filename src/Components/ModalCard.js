@@ -13,7 +13,7 @@ import {
 
 import { GET_MOVIE, ADD_TO_CART } from "../Actions/queries.js";
 
-const useStyles = makeStyles({
+const useStyles = makeStyles(theme => ({
   card: {
     width: "100%",
     height: "100%",
@@ -24,7 +24,10 @@ const useStyles = makeStyles({
   },
   media: {
     height: "100%",
-    flex: "1 60%"
+    flex: "1 60%",
+    [theme.breakpoints.down("xs")]: {
+      flex: "1 350px"
+    }
   },
   addButton: {
     fontSize: 18,
@@ -51,7 +54,7 @@ const useStyles = makeStyles({
     display: "flex",
     alignItems: "center"
   }
-});
+}));
 
 const CustomIcon = withStyles(theme => ({
   root: {
