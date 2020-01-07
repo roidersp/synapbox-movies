@@ -39,8 +39,6 @@ const Header = () => {
     client.writeData({ data: { cartIsOpen: true } });
   };
 
-  console.log(cartItemLen);
-
   return (
     <div className={classes.grow}>
       <AppBar position="static">
@@ -51,9 +49,10 @@ const Header = () => {
           <div className={classes.grow} />
           <div>
             <IconButton
-              aria-label={`show ${cartItemLen} new mails`}
+              aria-label={`${cartItemLen} peliculas en el carrito`}
               color="inherit"
               onClick={openCart}
+              data-testid="openCart"
             >
               <Badge badgeContent={cartItemLen} color="secondary">
                 <ShoppingCartIcon />

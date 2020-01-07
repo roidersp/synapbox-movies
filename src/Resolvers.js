@@ -5,11 +5,9 @@ export const resolvers = {
   Mutation: {
     addToCart: (_, { id }, { cache }) => {
       const { cartItems } = cache.readQuery({ query: GET_CART_ITEMS });
-
       const data = {
         cartItems: !cartItems.includes(id) ? [...cartItems, id] : cartItems
       };
-
       cache.writeQuery({ query: GET_CART_ITEMS, data });
       return data.cartItems;
     },
